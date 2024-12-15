@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 
-// * Views Teatro
+// * Views Autoescola
 
 // Rota por GET para a tela home
 Route::get('/', function () {
