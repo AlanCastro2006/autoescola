@@ -118,9 +118,6 @@
                         <li class="roboto-regular">Treinamento personalizado para motoristas habilitados</li>
                     </ul>
                 </div>
-                
-
-
 
             </div>
 
@@ -275,46 +272,107 @@
 
                 {{-- Nosso Espaço Conteúdo --}}
                 <div class="tab-pane fade show active" id="nosso-espaco-tab-pane" role="tabpanel" aria-labelledby="nosso-espaco-tab" tabindex="0">
-                    <div class="row d-flex justify-content-center align-items-center row-gap-5">
-                        <div class="col-lg-5 col-sm-12 text-center">
-                            <img src="{{ Vite::asset('resources/img/tela-about-us/img-recepcao-sofa.jpg') }}" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
-                            <ul class="technical-characteristics-ul d-flex flex-column">
-                                <li class="roboto-regular">Ambiente confortável e totalmente <span class="technical-characteristics-text-highlight">climatizado</span></li>
-                                <li class="roboto-regular"><span class="technical-characteristics-text-highlight">Sofás de couro</span> espaçosos e confortáveis</li>
-                                <li class="roboto-regular">Excelente para eperar ou <span class="technical-characteristics-text-highlight">relaxar</span> durante os intervalos</li>
-                                <li class="roboto-regular">Espaço dedicado aos visitantes e estudantes <span class="technical-characteristics-text-highlight"></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- Salas De Aula Conteúdo --}}
-                <div class="tab-pane fade" id="salas-de-aula-tab-pane" role="tabpanel" aria-labelledby="salas-de-aula-tab" tabindex="0">
-                    <div class="row d-flex justify-content-center align-items-center row-gap-5">
-                        <div class="col-lg-5 col-sm-12 text-center">
-                            <img src="{{ Vite::asset('resources/img/tela-about-us/img-sala-aula.jpg') }}" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
-                            <ul class="technical-characteristics-ul d-flex flex-column">
-                                <li class="roboto-regular">Excelente lugar para <span class="technical-characteristics-text-highlight">estudos</span></li>
-                                <li class="roboto-regular">Aconchegante, acolhedor, climatizado e <span class="technical-characteristics-text-highlight">dedicado</span></li>
-                                <li class="roboto-regular">Aulas com profissionais experientes e <span class="technical-characteristics-text-highlight">capacitados</span> em pé</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- Pista Interna Conteúdo --}}
-                <div class="tab-pane fade" id="pista-interna-tab-pane" role="tabpanel" aria-labelledby="pista-interna-tab" tabindex="0">
-                    <div id="image-slider" class="carousel slide" data-bs-ride="carousel">
+                    <div id="nosso-espaco-slider" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <!-- Primeira Imagem -->
                             <div class="carousel-item active">
                                 <div class="row d-flex justify-content-center align-items-center row-gap-5">
                                     <div class="col-lg-5 col-sm-12 text-center">
-                                        <img src="{{ Vite::asset('resources/img/tela-about-us/img-pista-interna.jpg') }}" class="img-fluid" alt="">
+                                        <img src="{{ Vite::asset('resources/img/tela-about-us/img-recepcao-centro.png') }}" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
+                                        <ul class="technical-characteristics-ul d-flex flex-column">
+                                            <li class="roboto-regular">Ambiente confortável e totalmente <span class="technical-characteristics-text-highlight">climatizado</span></li>
+                                            <li class="roboto-regular"><span class="technical-characteristics-text-highlight">Sofás de couro</span> espaçosos e confortáveis</li>
+                                            <li class="roboto-regular">Excelente para eperar ou <span class="technical-characteristics-text-highlight">relaxar</span> durante os intervalos</li>
+                                            <li class="roboto-regular">Espaço dedicado aos visitantes e estudantes <span class="technical-characteristics-text-highlight"></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Segunda Imagem -->
+                            <div class="carousel-item">
+                                <div class="row d-flex justify-content-center align-items-center row-gap-5">
+                                    <div class="col-lg-5 col-sm-12 text-center">
+                                        <img src="{{ Vite::asset('resources/img/tela-about-us/img-recepcao-sd.png') }}" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
+                                        <ul class="technical-characteristics-ul d-flex flex-column">
+                                            <li class="roboto-regular">Excelente estrutura para <span class="technical-characteristics-text-highlight">acolher todos</span> os espetáculos</li>
+                                            <li class="roboto-regular">Dimensões do palco são de <span class="technical-characteristics-text-highlight">8,50m</span> por <span class="technical-characteristics-text-highlight">8,45m</span></li>
+                                            <li class="roboto-regular">Dimensões do pró-cenio são de <span class="technical-characteristics-text-highlight">2,17m</span> por <span class="technical-characteristics-text-highlight">8,45m</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Controles do Slider -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#nosso-espaco-slider" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#nosso-espaco-slider" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                </div>
+
+                {{-- Salas De Aula Conteúdo --}}
+                <div class="tab-pane fade" id="salas-de-aula-tab-pane" role="tabpanel" aria-labelledby="salas-de-aula-tab" tabindex="0">
+                    <div id="salas-de-aula-slider" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Primeira Imagem -->
+                            <div class="carousel-item active">
+                                <div class="row d-flex justify-content-center align-items-center row-gap-5">
+                                    <div class="col-lg-5 col-sm-12 text-center">
+                                        <img src="{{ Vite::asset('resources/img/tela-about-us/img-salas-de-aula-1-centro.png') }}" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
+                                        <ul class="technical-characteristics-ul d-flex flex-column">
+                                            <li class="roboto-regular">Excelente lugar para <span class="technical-characteristics-text-highlight">estudos</span></li>
+                                            <li class="roboto-regular">Aconchegante, acolhedor, climatizado e <span class="technical-characteristics-text-highlight">dedicado</span></li>
+                                            <li class="roboto-regular">Aulas com profissionais experientes e <span class="technical-characteristics-text-highlight">capacitados</span> em pé</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Segunda Imagem  -->
+                            <div class="carousel-item">
+                                <div class="row d-flex justify-content-center align-items-center row-gap-5">
+                                    <div class="col-lg-5 col-sm-12 text-center">
+                                        <img src="{{ Vite::asset('resources/img/tela-about-us/img-salas-de-aula-2-centro.png') }}" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
+                                        <ul class="technical-characteristics-ul d-flex flex-column">
+                                            <li class="roboto-regular">Excelente estrutura para <span class="technical-characteristics-text-highlight">acolher todos</span> os espetáculos</li>
+                                            <li class="roboto-regular">Dimensões do palco são de <span class="technical-characteristics-text-highlight">8,50m</span> por <span class="technical-characteristics-text-highlight">8,45m</span></li>
+                                            <li class="roboto-regular">Dimensões do pró-cenio são de <span class="technical-characteristics-text-highlight">2,17m</span> por <span class="technical-characteristics-text-highlight">8,45m</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Controles do Slider -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#salas-de-aula-slider" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#salas-de-aula-slider" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                </div>
+                {{-- Pista Interna Conteúdo --}}
+                <div class="tab-pane fade" id="pista-interna-tab-pane" role="tabpanel" aria-labelledby="pista-interna-tab" tabindex="0">
+                    <div id="pista-interna-slider" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Primeira Imagem -->
+                            <div class="carousel-item active">
+                                <div class="row d-flex justify-content-center align-items-center row-gap-5">
+                                    <div class="col-lg-5 col-sm-12 text-center">
+                                        <img src="{{ Vite::asset('resources/img/tela-about-us/img-pista-interna-1-centro.png') }}" class="img-fluid" alt="">
                                     </div>
                                     <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
                                         <ul class="technical-characteristics-ul d-flex flex-column">
@@ -329,7 +387,7 @@
                             <div class="carousel-item">
                                 <div class="row d-flex justify-content-center align-items-center row-gap-5">
                                     <div class="col-lg-5 col-sm-12 text-center">
-                                        <img src="{{ Vite::asset('resources/img/tela-about-us/img-recepcao-sofa.jpg') }}" class="img-fluid" alt="">
+                                        <img src="{{ Vite::asset('resources/img/tela-about-us/img-pista-interna-2-centro.png') }}" class="img-fluid" alt="">
                                     </div>
                                     <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
                                         <ul class="technical-characteristics-ul d-flex flex-column">
@@ -342,11 +400,11 @@
                             </div>
                         </div>
                         <!-- Controles do Slider -->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#image-slider" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#pista-interna-slider" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Anterior</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#image-slider" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#pista-interna-slider" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Próximo</span>
                         </button>
@@ -356,29 +414,60 @@
 
                 {{-- Área de Lazer Conteúdo --}}
                 <div class="tab-pane fade" id="area-de-lazer-tab-pane" role="tabpanel" aria-labelledby="area-de-lazer-tab" tabindex="0">
-                    <div class="row d-flex justify-content-center align-items-center row-gap-5">
-                        <div class="col-lg-5 col-sm-12 text-center">
-                            <img src="{{ Vite::asset('resources/img/tela-about-us/img-area-de-lazer.jpg') }}" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
-                            <ul class="technical-characteristics-ul d-flex flex-column">
-                                <li class="roboto-regular">Área goumet<span class="technical-characteristics-text-highlight"></span></li>
-                                <li class="roboto-regular">Espaço para interação e socialização dos alunos</li>
-                                <li class="roboto-regular">Área de Luz natural<span class="technical-characteristics-text-highlight"></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- Frota Conteúdo --}}
-                <div class="tab-pane fade" id="frota-tab-pane" role="tabpanel" aria-labelledby="frota-tab" tabindex="0">
-                    <div id="light-equipment-slider" class="carousel slide" data-bs-ride="carousel">
+                    <div id="area-de-lazer-slider" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <!-- Primeira Imagem -->
                             <div class="carousel-item active">
                                 <div class="row d-flex justify-content-center align-items-center row-gap-5">
                                     <div class="col-lg-5 col-sm-12 text-center">
-                                        <img src="{{ Vite::asset('resources/img/tela-about-us/img-recepcao-sofa.jpg') }}" class="img-fluid" alt="">
+                                        <img src="{{ Vite::asset('resources/img/tela-about-us/img-area-de-lazer-centro.png') }}" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
+                                        <ul class="technical-characteristics-ul d-flex flex-column">
+                                            <li class="roboto-regular">Área goumet<span class="technical-characteristics-text-highlight"></span></li>
+                                            <li class="roboto-regular">Espaço para interação e socialização dos alunos</li>
+                                            <li class="roboto-regular">Área de Luz natural<span class="technical-characteristics-text-highlight"></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Segunda Imagem -->
+                            <div class="carousel-item">
+                                <div class="row d-flex justify-content-center align-items-center row-gap-5">
+                                    <div class="col-lg-5 col-sm-12 text-center">
+                                        <img src="{{ Vite::asset('resources/img/tela-about-us/img-area-gourmet-centro.png') }}" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
+                                        <ul class="technical-characteristics-ul d-flex flex-column">
+                                            <li class="roboto-regular">Excelente estrutura para <span class="technical-characteristics-text-highlight">acolher todos</span> os espetáculos</li>
+                                            <li class="roboto-regular">Dimensões do palco são de <span class="technical-characteristics-text-highlight">8,50m</span> por <span class="technical-characteristics-text-highlight">8,45m</span></li>
+                                            <li class="roboto-regular">Dimensões do pró-cenio são de <span class="technical-characteristics-text-highlight">2,17m</span> por <span class="technical-characteristics-text-highlight">8,45m</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Controles do Slider -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#area-de-lazer-slider" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#area-de-lazer-slider" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                </div>
+
+                {{-- Frota Conteúdo --}}
+                <div class="tab-pane fade" id="frota-tab-pane" role="tabpanel" aria-labelledby="frota-tab" tabindex="0">
+                    <div id="frota-slider" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Primeira Imagem -->
+                            <div class="carousel-item active">
+                                <div class="row d-flex justify-content-center align-items-center row-gap-5">
+                                    <div class="col-lg-5 col-sm-12 text-center">
+                                        <img src="{{ Vite::asset('resources/img/tela-about-us/img-motos-centro.png') }}" class="img-fluid" alt="">
                                     </div>
                                     <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
                                         <ul class="technical-characteristics-ul d-flex flex-column">
@@ -393,7 +482,7 @@
                             <div class="carousel-item">
                                 <div class="row d-flex justify-content-center align-items-center row-gap-5">
                                     <div class="col-lg-5 col-sm-12 text-center">
-                                        <img src="{{ Vite::asset('resources/img/tela-about-us/img-outra-imagem.jpg') }}" class="img-fluid" alt="">
+                                        <img src="{{ Vite::asset('resources/img/tela-about-us/img-carros-centro.png') }}" class="img-fluid" alt="">
                                     </div>
                                     <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
                                         <ul class="technical-characteristics-ul d-flex flex-column">
@@ -406,11 +495,11 @@
                             </div>
                         </div>
                         <!-- Controles do Slider -->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#light-equipment-slider" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#frota-slider" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Anterior</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#light-equipment-slider" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#frota-slider" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Próximo</span>
                         </button>
