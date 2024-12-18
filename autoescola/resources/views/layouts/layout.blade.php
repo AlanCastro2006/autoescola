@@ -143,8 +143,8 @@
                             <h2 class="tnr-bold tnr-title-size tnr-title-size--sm">LINKS ÚTEIS</h2>
                             <div class="d-flex back-detran">
                                 <a title="Detran SP" target="_blank" class="icon-effect-wobble" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Detran SP"
-                                    href="https://www.detran.sp.gov.br/wps/portal/portaldetran/cidadao/home"> 
-                                    <img id="detran-logo" 
+                                    href="https://www.detran.sp.gov.br/wps/portal/portaldetran/cidadao/home">
+                                    <img id="detran-logo"
                                         src="https://www.autoescolacaleffi.com.br/wp-content/uploads/2024/05/logo.png"
                                         alt="Detran SP">
                                 </a>
@@ -155,9 +155,26 @@
                     {{-- Seção: Localização --}}
                     <div class="col-md-4 col-sm-12 footer-section-center">
                         <h2 class="tnr-bold tnr-title-size tnr-title-size--sm">LOCALIZAÇÃO</h2>
-                        <p class="roboto-regular">Rua Marechal Bitencourt, 210 - Ribeirão - Amparo - SP</p>
-                        <p class="roboto-regular"> Rua João Alves, 292 - Jd. São Dimas - Amparo - SP</p>
+                        <div>
+                            <p class="roboto-regular">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 24 24" width="16" fill="#ff0000">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 3.44 2.72 6.36 6.84 10.19.1.09.23.13.36.13s.26-.04.36-.13C16.28 15.36 19 12.44 19 9c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z" />
+                                    </svg>
+                                </span>
+                                Rua Marechal Bitencourt, 210 - Ribeirão - Amparo - SP
+                            </p>
+                            <p class="roboto-regular">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 24 24" width="16" fill="#ff0000">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 3.44 2.72 6.36 6.84 10.19.1.09.23.13.36.13s.26-.04.36-.13C16.28 15.36 19 12.44 19 9c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z" />
+                                    </svg>
+                                </span>
+                                Rua João Alves, 292 - Jd. São Dimas - Amparo - SP
+                            </p>
+                        </div>
                     </div>
+
 
                     {{-- Seção: Fale conosco --}}
                     <div class="col-md-4 col-sm-12 footer-section-text-center">

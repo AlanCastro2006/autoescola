@@ -19,13 +19,8 @@
         {{-- Imagem da Autoescola e Texto --}}
         <div class="row justify-content-between">
 
-            {{-- Imagem Autoescola Antigo --}}
-            <div class="col-lg-5 col-sm-12 text-center about-content-margin-bottom">
-                <img src="{{ Vite::asset('resources/img/tela-about-us/img-carro.png') }}" class="img-fluid" alt="">
-            </div>
-
             {{-- Texto Autoescola --}}
-            <div class="col-lg-5 col-sm-12">
+            <div class="col-lg-7 col-sm-12">
                 <h2 class="roboto-bold cores">Nossa história</h2>
 
                 <p class="roboto-regular">Fundada em abril de 1989, a <span class="about-content-text-highlight">Autoescola Caleffi</span>Fundada em abril de 1989,
@@ -45,15 +40,27 @@
                 <p class="roboto-regular"><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span></p>
             </div>
 
+            {{-- Imagem Hélvio Caleffi --}}
+            <div class="col-lg-5 col-sm-12 text-center">
+                <img class="redim" src="{{ Vite::asset('resources/img/tela-about-us/img-caleffi.jpg') }}" class="img-fluid" alt="Nosso fundador sr. Hélvio Caleffi">
+                <figcaption>Nosso fundador sr. Hélvio Caleffi</figcaption>
+            </div>
+
         </div>
 
         <hr class="divider divider--about">
 
         {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
-
+        {{-- Imagem Autoescola Atual --}}
+            <div class="col-lg-5 col-sm-12 text-center about-content-margin-bottom">
+                <img class="img-carro" src="{{ Vite::asset('resources/img/tela-about-us/img-carro.jpg') }}" class="img-fluid" alt="Veículo exclusivo para alunos com necessidades especiais">
+                <figcaption>Veículo exclusivo para alunos com necessidades especiais</figcaption>
+            </div>
             {{-- Texto Continuação --}}
-            <div class="col-lg-5 col-sm-12 about-content-margin-bottom">
+            <div class="col-lg-6 col-sm-12 about-content-margin-bottom">
+
+            
 
                 <h2 class="roboto-bold cores">Gestão</h2>
 
@@ -69,12 +76,7 @@
 
                 <p class="roboto-regular"><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span></p>
             </div>
-
-            {{-- Imagem Autoescola Atual --}}
-            <div class="col-lg-5 col-sm-12 text-center">
-                <img src="{{ Vite::asset('resources/img/tela-about-us/img-caleffi.png') }}" class="img-fluid" alt="">
-            </div>
-
+            
         </div>
 
         <hr class="divider divider--about">
@@ -83,16 +85,16 @@
         <div class="row justify-content-between">
 
             {{-- Texto Continuação --}}
-            <div class="about-content-margin-bottom">
+            <div class="">
 
                 <h2 class="roboto-bold cores">Cronologia</h2>
 
-                <div class="col-lg-6 col-sm-12 d-flex flex-column align-items-center cores">
+                <div class="col-sm-12 d-flex flex-column align-items-center cores">
                     <ul>
-                        <li class="roboto-regular"><span class="about-content-text-highlight">1989:</span> Fundação da Autoescola Caleffi, um sonho dos irmãos Caleffi em Amparo.</li>
-                        <li class="roboto-regular"><span class="about-content-text-highlight">2012:</span> Gestão assumida integralmente por Helvio Caleffi.</li>
-                        <li class="roboto-regular"><span class="about-content-text-highlight">2013:</span> Mudança para sede maior, com instalações modernas e simulador de direção.</li>
-                        <li class="roboto-regular"><span class="about-content-text-highlight">2016:</span> Certificação ISO 9001:2008 e inauguração de unidade no Jardim São Dimas.</li>
+                        <li class="roboto-regular espaco"><span class="about-content-text-highlight">1989:</span> Fundação da Autoescola Caleffi, um sonho dos irmãos Caleffi em Amparo. Com o objetivo de oferecer educação de qualidade no trânsito, a Autoescola Caleffi iniciou sua jornada com foco em formação de condutores e segurança no trânsito, conquistando a confiança da comunidade local.</li>
+                        <li class="roboto-regular espaco"><span class="about-content-text-highlight">2012:</span> Gestão assumida integralmente por Helvio Caleffi. Sob sua liderança, a autoescola passou a expandir seus serviços e aprimorar constantemente a qualidade do ensino, introduzindo novas metodologias e tecnologias para melhor atender aos alunos.</li>
+                        <li class="roboto-regular espaco"><span class="about-content-text-highlight">2013:</span> Mudança para sede maior, com instalações modernas e simulador de direção. A nova unidade foi projetada para proporcionar mais conforto aos alunos, com um ambiente moderno e tecnológico, incluindo um simulador de direção que contribui para uma experiência de aprendizado mais eficaz e segura.</li>
+                        <li class="roboto-regular espaco"><span class="about-content-text-highlight">2016:</span> Certificação ISO 9001:2008 e inauguração de unidade no Jardim São Dimas. A conquista da certificação ISO 9001:2008, que reconhece a qualidade na gestão de processos, reforçou o compromisso da Autoescola Caleffi com a excelência no ensino. A inauguração da unidade no Jardim São Dimas ampliou o alcance da autoescola, permitindo atender ainda mais alunos em uma nova região.</li>
                     </ul>
                 </div>
 
@@ -110,12 +112,12 @@
 
                 <h2 class="roboto-bold cores">O que Oferecemos</h2>
 
-                <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center cores">
+                <div class="col-sm-12 d-flex flex-column align-items-center cores">
                     <ul>
-                        <li class="roboto-regular">Habilitação (Categorias A, B, C, D e E)</li>
-                        <li class="roboto-regular">Primeira habilitação, mudança ou adição de categoria</li>
-                        <li class="roboto-regular">Reabilitação de CNH cassada e Permissão Internacional para Dirigir</li>
-                        <li class="roboto-regular">Treinamento personalizado para motoristas habilitados</li>
+                        <li class="roboto-regular espaco"><span class="about-content-text-highlight">Habilitação (Categorias A, B, C, D e E):</span> Oferecemos cursos completos para todas as categorias de habilitação, de moto (A) a veículos pesados (C, D e E). Garantimos que nossos alunos estejam preparados para dirigir com segurança e confiança em qualquer situação no trânsito.</li>
+                        <li class="roboto-regular espaco"><span class="about-content-text-highlight">Primeira habilitação, mudança ou adição de categoria:</span> Se você está começando a jornada como motorista ou deseja mudar sua categoria de habilitação, nossa equipe está pronta para oferecer o melhor suporte. Também realizamos adição de categorias para que você possa expandir suas habilidades conforme suas necessidades.</li>
+                        <li class="roboto-regular espaco"><span class="about-content-text-highlight">Reabilitação de CNH cassada e Permissão Internacional para Dirigir:</span> Trabalhamos com cursos para reabilitação de CNH cassada, ajudando motoristas a reconquistar sua licença de forma segura e responsável. Além disso, oferecemos serviços para a obtenção da Permissão Internacional para Dirigir, permitindo que você viaje com mais liberdade e tranquilidade.</li>
+                        <li class="roboto-regular espaco"><span class="about-content-text-highlight">Treinamento personalizado para motoristas habilitados:</span> Além de atender novos motoristas, também oferecemos treinamento personalizado para motoristas habilitados que desejam aprimorar suas habilidades, seja para enfrentar desafios específicos ou simplesmente para se sentir mais seguros ao dirigir.</li>
                     </ul>
                 </div>
 
@@ -133,12 +135,12 @@
 
                 <h2 class="roboto-bold cores">Nossos diferenciais</h2>
 
-                <div class="col-lg-6 col-sm-12 d-flex flex-column align-items-center cores">
+                <div class="col-sm-12 d-flex flex-column align-items-center cores">
                     <ul>
-                        <li class="roboto-regular"><span class="about-content-text-highlight">Instrutores Certificados:</span> Equipe qualificada com foco no aprendizado e suporte técnico.</li>
-                        <li class="roboto-regular"><span class="about-content-text-highlight">Tecnologia Avançada:</span> Apps e relatórios digitais que acompanham o aluno em toda a jornada.</li>
-                        <li class="roboto-regular"><span class="about-content-text-highlight">Aulas Personalizadas:</span> Adaptadas às necessidades de cada aluno, com abordagem clara e prática.</li>
-                        <li class="roboto-regular"><span class="about-content-text-highlight">Material Exclusivo:</span> Conteúdo didático que reduz reprovação e facilita o aprendizado.</li>
+                        <li class="roboto-regular espaco"><span class="about-content-text-highlight">Instrutores Certificados:</span> Nossa equipe é composta por profissionais altamente qualificados e certificados, com vasta experiência e comprometidos com o aprendizado de cada aluno. Eles não apenas ensinam, mas oferecem suporte contínuo, ajustando as metodologias de ensino conforme as necessidades individuais.</li>
+                        <li class="roboto-regular espaco"><span class="about-content-text-highlight">Tecnologia Avançada:</span> Utilizamos aplicativos e ferramentas digitais para tornar o aprendizado mais interativo e eficiente. Os alunos têm acesso a relatórios digitais personalizados, monitorando seu progresso e ajustando os estudos de acordo com suas necessidades, tudo ao seu alcance.</li>
+                        <li class="roboto-regular espaco"><span class="about-content-text-highlight">Aulas Personalizadas:</span> Cada aluno é único e, por isso, nossas aulas são moldadas de acordo com o ritmo e estilo de aprendizado de cada um. As abordagens práticas e claras garantem que o aluno se sinta confortável e confiante, não importa seu nível de experiência.</li>
+                        <li class="roboto-regular espaco"><span class="about-content-text-highlight">Material Exclusivo:</span> Nosso material didático é desenvolvido para reduzir a taxa de reprovação e garantir o melhor aproveitamento. Conteúdos exclusivos e práticos são oferecidos para que o aluno aprenda de maneira dinâmica, consolidando seu conhecimento de forma eficiente e eficaz.</li>
                     </ul>
                 </div>
 
@@ -157,8 +159,7 @@
                 <h2 class="roboto-bold cores">Missão</h2>
 
                 <p class="roboto-regular">
-                    Formar condutores conscientes, promovendo segurança e harmonia no trânsito, com educação de qualidade e responsabilidade social.
-                </p>
+                Nosso compromisso é formar condutores conscientes, capazes de promover segurança, respeito e harmonia no trânsito. Através de uma educação de qualidade, buscamos não apenas ensinar as regras, mas também cultivar a responsabilidade social e o comportamento ético, garantindo um futuro mais seguro e sustentável para todos.                </p>
 
             </div>
 
@@ -175,8 +176,7 @@
                 <h2 class="roboto-bold cores">Visão</h2>
 
                 <p class="roboto-regular">
-                    Ser referência regional em educação de condutores, destacando-se pela excelência no ensino e compromisso com um trânsito seguro.
-                </p>
+                Nosso objetivo é ser referência regional em educação de condutores, destacando-nos pela excelência no ensino, pelo compromisso com a formação de motoristas responsáveis e pelo impacto positivo em um trânsito mais seguro para todos. Acreditamos que um aprendizado sólido e consciente é fundamental para a construção de um futuro com mais segurança e qualidade de vida.                </p>
 
             </div>
 
@@ -193,8 +193,7 @@
                 <h2 class="roboto-bold cores">Valores</h2>
 
                 <p class="roboto-regular">
-                    Ética, transparência, pioneirismo, inovação, respeito ao próximo e responsabilidade social.
-                </p>
+                Nossos pilares são ética, transparência, pioneirismo, inovação, respeito ao próximo e responsabilidade social. Esses valores guiam todas as nossas ações e nos impulsionam a oferecer um serviço de excelência, sempre comprometidos com o bem-estar e o desenvolvimento de nossos alunos e da comunidade.                </p>
 
             </div>
 
@@ -211,8 +210,7 @@
                 <h2 class="roboto-bold cores">Metodologia de ensino</h2>
 
                 <p class="roboto-regular">
-                    A Autoescola Caleffi prioriza o aprendizado individualizado, oferecendo suporte psicológico e técnico, infraestrutura moderna e horários adaptados à rotina dos alunos.
-                </p>
+                A Autoescola Caleffi valoriza o aprendizado individualizado, oferecendo uma combinação única de suporte psicológico e técnico para cada aluno. Com uma infraestrutura moderna e bem equipada, proporcionamos um ambiente ideal para o aprendizado. Além disso, nossos horários são flexíveis e adaptados à sua rotina, garantindo que você aprenda a dirigir com tranquilidade, confiança e no seu próprio ritmo.                </p>
 
             </div>
 
@@ -229,8 +227,7 @@
                 <h2 class="roboto-bold cores">Matricule-se Agora mesmo</h2>
 
                 <p class="roboto-regular">
-                    Aqui você aprende a dirigir de forma relaxada, com confiança e qualidade.
-                </p>
+                    Aqui você aprende a dirigir de forma relaxada, com confiança e qualidade, em um ambiente acolhedor e com o acompanhamento de instrutores experientes. Nosso método é pensado para oferecer segurança e tranquilidade, garantindo que você esteja preparado para enfrentar qualquer situação no trânsito com habilidade e segurança. </p>
             </div>
 
         </div>
@@ -282,10 +279,10 @@
                                     </div>
                                     <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
                                         <ul class="technical-characteristics-ul d-flex flex-column">
-                                            <li class="roboto-regular">Ambiente confortável e totalmente <span class="technical-characteristics-text-highlight">climatizado</span></li>
-                                            <li class="roboto-regular"><span class="technical-characteristics-text-highlight">Sofás de couro</span> espaçosos e confortáveis</li>
-                                            <li class="roboto-regular">Excelente para eperar ou <span class="technical-characteristics-text-highlight">relaxar</span> durante os intervalos</li>
-                                            <li class="roboto-regular">Espaço dedicado aos visitantes e estudantes <span class="technical-characteristics-text-highlight"></span></li>
+                                            <li class="roboto-regular">Ambiente <span class="technical-characteristics-text-highlight">acolhedor</span>, <span class="technical-characteristics-text-highlight">climatizado</span> e ideal para momentos de tranquilidade</li>
+                                            <li class="roboto-regular">Sofás de couro <span class="technical-characteristics-text-highlight">amplos</span> e <span class="technical-characteristics-text-highlight">confortáveis</span>, proporcionando máximo bem-estar</li>
+                                            <li class="roboto-regular">Um espaço perfeito para <span class="technical-characteristics-text-highlight">relaxar</span> ou aguardar confortavelmente durante os intervalos</li>
+                                            <li class="roboto-regular">Área projetada especialmente para <span class="technical-characteristics-text-highlight">visitantes</span> e <span class="technical-characteristics-text-highlight">estudantes</span>, garantindo funcionalidade e conforto</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -298,9 +295,10 @@
                                     </div>
                                     <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
                                         <ul class="technical-characteristics-ul d-flex flex-column">
-                                            <li class="roboto-regular">Excelente estrutura para <span class="technical-characteristics-text-highlight">acolher todos</span> os espetáculos</li>
-                                            <li class="roboto-regular">Dimensões do palco são de <span class="technical-characteristics-text-highlight">8,50m</span> por <span class="technical-characteristics-text-highlight">8,45m</span></li>
-                                            <li class="roboto-regular">Dimensões do pró-cenio são de <span class="technical-characteristics-text-highlight">2,17m</span> por <span class="technical-characteristics-text-highlight">8,45m</span></li>
+                                            <li class="roboto-regular">Ambiente <span class="technical-characteristics-text-highlight">moderno</span> e cuidadosamente<span class="technical-characteristics-text-highlight">climatizado</span> para o seu conforto</li>
+                                            <li class="roboto-regular">Sofás <span class="technical-characteristics-text-highlight">elegantes</span> e <span class="technical-characteristics-text-highlight">ergonomicamente projetados</span>para relaxar</li>
+                                            <li class="roboto-regular">Ideal para <span class="technical-characteristics-text-highlight">descontrair</span> ou aproveitar um momento de descanso</li>
+                                            <li class="roboto-regular">Espaço dedicado a proporcionar bem-estar tanto para <span class="technical-characteristics-text-highlight">estudantes</span> quanto para <span class="technical-characteristics-text-highlight">visitantes</span></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -330,9 +328,10 @@
                                     </div>
                                     <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
                                         <ul class="technical-characteristics-ul d-flex flex-column">
-                                            <li class="roboto-regular">Excelente lugar para <span class="technical-characteristics-text-highlight">estudos</span></li>
-                                            <li class="roboto-regular">Aconchegante, acolhedor, climatizado e <span class="technical-characteristics-text-highlight">dedicado</span></li>
-                                            <li class="roboto-regular">Aulas com profissionais experientes e <span class="technical-characteristics-text-highlight">capacitados</span> em pé</li>
+                                            <li class="roboto-regular">Um espaço projetado especialmente para <span class="technical-characteristics-text-highlight">foco</span> e <span class="technical-characteristics-text-highlight">aprendizado</span></li>
+                                            <li class="roboto-regular">Ambiente <span class="technical-characteristics-text-highlight">aconchegante</span>, cuidadosamente <span class="technical-characteristics-text-highlight">climatizado</span> e ideal para se concentrar</li>
+                                            <li class="roboto-regular">Aulas conduzidas por profissionais <span class="technical-characteristics-text-highlight">altamente qualificados</span> e comprometidos com o ensino</li>
+                                            <li class="roboto-regular">Espaço pensado para proporcionar uma experiência de aprendizado <span class="technical-characteristics-text-highlight">dinâmica</span> e <span class="technical-characteristics-text-highlight">envolvente</span></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -345,9 +344,10 @@
                                     </div>
                                     <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
                                         <ul class="technical-characteristics-ul d-flex flex-column">
-                                            <li class="roboto-regular">Excelente estrutura para <span class="technical-characteristics-text-highlight">acolher todos</span> os espetáculos</li>
-                                            <li class="roboto-regular">Dimensões do palco são de <span class="technical-characteristics-text-highlight">8,50m</span> por <span class="technical-characteristics-text-highlight">8,45m</span></li>
-                                            <li class="roboto-regular">Dimensões do pró-cenio são de <span class="technical-characteristics-text-highlight">2,17m</span> por <span class="technical-characteristics-text-highlight">8,45m</span></li>
+                                            <li class="roboto-regular">Aulas disponíveis nos períodos da <span class="technical-characteristics-text-highlight">manhã</span>, <span class="technical-characteristics-text-highlight">tarde</span> e <span class="technical-characteristics-text-highlight">noite</span>, adaptando-se à sua rotina</li>
+                                            <li class="roboto-regular">Intervalos planejados para tornar as aulas mais <span class="technical-characteristics-text-highlight">dinâmicas</span> e evitar a monotonia</li>
+                                            <li class="roboto-regular">Material didático exclusivo e <span class="technical-characteristics-text-highlight">gratuito</span>, elaborado especialmente para atender às exigências dos alunos</li>
+                                            <li class="roboto-regular">Testes <span class="technical-characteristics-text-highlight">personalizados</span> que ajudam a identificar os pontos de melhoria e garantem um aprendizado mais eficiente</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -376,9 +376,10 @@
                                     </div>
                                     <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
                                         <ul class="technical-characteristics-ul d-flex flex-column">
-                                            <li class="roboto-regular">Pista coberta para aulas em qualquer clima<span class="technical-characteristics-text-highlight"></span></li>
-                                            <li class="roboto-regular">Totalmente climatizada <span class="technical-characteristics-text-highlight"></span><span class="technical-characteristics-text-highlight"></span></li>
-                                            <li class="roboto-regular">Pista exatamente igual a do Detran <span class="technical-characteristics-text-highlight"></span><span class="technical-characteristics-text-highlight"></span></li>
+                                            <li class="roboto-regular">Pista <span class="technical-characteristics-text-highlight">coberta</span> para treinamento em qualquer condição climática, garantindo conforto e continuidade das aulas</li>
+                                            <li class="roboto-regular">Ambiente totalmente <span class="technical-characteristics-text-highlight">climatizado</span>, proporcionando uma experiência agradável em todas as estações do ano</li>
+                                            <li class="roboto-regular">Estrutura <span class="technical-characteristics-text-highlight">idêntica</span> à pista do Detran, oferecendo uma simulação realista para maior confiança no exame</li>
+                                            <li class="roboto-regular">Equipado com sinalização e marcações que seguem os padrões <span class="technical-characteristics-text-highlight">oficiais</span>, garantindo aprendizado consistente e eficaz</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -391,9 +392,10 @@
                                     </div>
                                     <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
                                         <ul class="technical-characteristics-ul d-flex flex-column">
-                                            <li class="roboto-regular">Excelente estrutura para <span class="technical-characteristics-text-highlight">acolher todos</span> os espetáculos</li>
-                                            <li class="roboto-regular">Dimensões do palco são de <span class="technical-characteristics-text-highlight">8,50m</span> por <span class="technical-characteristics-text-highlight">8,45m</span></li>
-                                            <li class="roboto-regular">Dimensões do pró-cenio são de <span class="technical-characteristics-text-highlight">2,17m</span> por <span class="technical-characteristics-text-highlight">8,45m</span></li>
+                                            <li class="roboto-regular">Instrutores dedicados a cada aluno, garantindo atenção <span class="technical-characteristics-text-highlight">exclusiva</span> durante todas as aulas</li>
+                                            <li class="roboto-regular">Acompanhamento personalizado com foco em corrigir <span class="technical-characteristics-text-highlight">dificuldades</span> específicas e aprimorar habilidades</li>
+                                            <li class="roboto-regular">Compromisso com a <span class="technical-characteristics-text-highlight">segurança</span> em todo o percurso, promovendo confiança e tranquilidade</li>
+                                            <li class="roboto-regular">Treinamento adaptado ao ritmo de aprendizado do aluno, garantindo um progresso consistente e eficaz</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -424,9 +426,10 @@
                                     </div>
                                     <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
                                         <ul class="technical-characteristics-ul d-flex flex-column">
-                                            <li class="roboto-regular">Área goumet<span class="technical-characteristics-text-highlight"></span></li>
-                                            <li class="roboto-regular">Espaço para interação e socialização dos alunos</li>
-                                            <li class="roboto-regular">Área de Luz natural<span class="technical-characteristics-text-highlight"></span></li>
+                                            <li class="roboto-regular">Área gourmet equipada, ideal para momentos de descontração e convivência</li>
+                                            <li class="roboto-regular">Espaço pensado para <span class="technical-characteristics-text-highlight">interação</span> e <span class="technical-characteristics-text-highlight">socialização</span> entre os alunos, fortalecendo o aprendizado em grupo</li>
+                                            <li class="roboto-regular">Ambiente com luz natural, criando um espaço <span class="technical-characteristics-text-highlight">agradável</span> e <span class="technical-characteristics-text-highlight">acolhedor</span> para relaxar entre as aulas</li>
+                                            <li class="roboto-regular">Área de convivência que une conforto e praticidade, contribuindo para um ambiente mais <span class="technical-characteristics-text-highlight">harmônico</span></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -439,9 +442,10 @@
                                     </div>
                                     <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
                                         <ul class="technical-characteristics-ul d-flex flex-column">
-                                            <li class="roboto-regular">Excelente estrutura para <span class="technical-characteristics-text-highlight">acolher todos</span> os espetáculos</li>
-                                            <li class="roboto-regular">Dimensões do palco são de <span class="technical-characteristics-text-highlight">8,50m</span> por <span class="technical-characteristics-text-highlight">8,45m</span></li>
-                                            <li class="roboto-regular">Dimensões do pró-cenio são de <span class="technical-characteristics-text-highlight">2,17m</span> por <span class="technical-characteristics-text-highlight">8,45m</span></li>
+                                            <li class="roboto-regular">Espaço especialmente planejado para criar momentos <span class="technical-characteristics-text-highlight">únicos</span> e <span class="technical-characteristics-text-highlight">memoráveis</span> entre os alunos</li>
+                                            <li class="roboto-regular">Ambiente descontraído e confortável, perfeito para aproveitar pausas e recarregar as energias</li>
+                                            <li class="roboto-regular">Design acolhedor, pensado para proporcionar experiências <span class="technical-characteristics-text-highlight">incríveis</span> e fortalecer a convivência</li>
+                                            <li class="roboto-regular">Opções de snacks e bebidas disponíveis para maior comodidade e praticidade</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -471,9 +475,10 @@
                                     </div>
                                     <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
                                         <ul class="technical-characteristics-ul d-flex flex-column">
-                                            <li class="roboto-regular">x motos exclusivas para aulas <span class="technical-characteristics-text-highlight"></span></li>
-                                            <li class="roboto-regular">Motos adaptadas a todos os tamanhos</li>
-                                            <li class="roboto-regular"><span class="technical-characteristics-text-highlight"></span></li>
+                                            <li class="roboto-regular">10 motos exclusivas, modernas e em excelente estado para aulas práticas</li>
+                                            <li class="roboto-regular">Modelos adaptados para diferentes alturas e perfis, garantindo maior conforto e segurança</li>
+                                            <li class="roboto-regular">Manutenção e calibração periódicas para oferecer a melhor experiência de pilotagem</li>
+                                            <li class="roboto-regular">Equipamentos novos e ergonômicos, proporcionando mais confiança e tranquilidade</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -486,9 +491,10 @@
                                     </div>
                                     <div class="col-lg-5 col-sm-12 d-flex flex-column align-items-center">
                                         <ul class="technical-characteristics-ul d-flex flex-column">
-                                            <li class="roboto-regular">x carros exclusivos<span class="technical-characteristics-text-highlight">frta</span></li>
-                                            <li class="roboto-regular">Carro adaptado para alunos PCD</li>
-                                            <li class="roboto-regular"><span class="technical-characteristics-text-highlight"></span></li>
+                                            <li class="roboto-regular">4 carros exclusivos e novos, garantindo conforto e segurança durante as aulas</li>
+                                            <li class="roboto-regular">Veículo adaptado para alunos PCD, promovendo acessibilidade e inclusão</li>
+                                            <li class="roboto-regular">Pontos exclusivos para baliza em locais tranquilos, proporcionando mais confiança e foco</li>
+                                            <li class="roboto-regular">Aulas com acompanhamento integral de instrutores experientes e atentos a cada detalhe</li>
                                         </ul>
                                     </div>
                                 </div>
