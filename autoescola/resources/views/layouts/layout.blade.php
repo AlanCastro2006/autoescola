@@ -45,7 +45,7 @@
 
                 {{-- Logo da Autoescola --}}
                 <a class="navbar-brand d-flex align-items-center" href="/">
-                    <img src="{{ Vite::asset('resources/img/logo/logo-autoescola.png') }}" class="img-fluid" alt="Logo Autoescola">
+                    <img class="logo-cel" src="{{ Vite::asset('resources/img/logo/logo-autoescola.png') }}" class="img-fluid" alt="Logo Autoescola">
                 </a>
 
                 {{-- Theme Changer (Light/Dark) --}}
@@ -86,9 +86,13 @@
                                 <a class="nav-link roboto-regular {{ request()->is('sobre-nos') ? 'active' : ''}}" href="/sobre-nos">SOBRE NÓS</a>
                             </li>
 
+                            <hr class="divider divider--header">
+
                             <li class="nav-item">
                                 <a class="nav-link roboto-regular {{ request()->is('services') ? 'active' : ''}}" href="/services">SERVIÇOS</a>
                             </li>
+
+                            <hr class="divider divider--header">
 
                             <li class="nav-item">
                                 <a class="nav-link roboto-regular" id="contatos-link" href="#contatos">LINKS ÚTEIS</a>

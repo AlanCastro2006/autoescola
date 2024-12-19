@@ -421,11 +421,6 @@
         min-height: 450px;
     }
 
-    #cards-section #empty-state-text {
-        /* Espaçamento entre as linhas */
-        line-height: 30px;
-    }
-
 }
 
 /* Custom @media */
@@ -461,24 +456,6 @@
     .fontisto--ticket {
         width: 16px;
         height: 16px;
-    }
-
-    #cards-section #empty-state-img {
-        /* Largura da imagem do empty state */
-        width: 400px;
-    }
-
-    #cards-section #empty-state-title {
-        /* Font size do empty state */
-        font-size: 22px;
-    }
-
-    #cards-section #empty-state-text {
-        /* Font size do empty state */
-        font-size: 14px;
-
-        /* Espaçamento superior do título do empty state */
-        margin-top: 0px;
     }
 
     .divider--empty {

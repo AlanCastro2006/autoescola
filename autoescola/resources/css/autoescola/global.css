@@ -11,6 +11,24 @@
     box-sizing: border-box;
 }
 
+.intro {
+    font-weight: 400;
+}
+
+.intro2 {
+    color: #f68029;
+}
+
+.txt-inicial {
+    font-weight: 400;
+}
+
+.txt-img-home {
+    margin-top: 35px;
+    text-align: center !important;
+    align-items: center;
+}
+
 html {
     /* Background color da página */
     background-color: var(--branco-preto);
@@ -265,16 +283,17 @@ li {
     --theme-changer-hover-color: #1a1a1a;
 
     /* Navbar Colors */
-    --navbar-bg:rgba(13, 13, 13, 0);
+    --navbar-bg: rgba(13, 13, 13, 0);
 }
 
 .navbar.scrolled {
-    background-color: var(--navbar-bg); /* Fundo opaco quando rolado */
+    background-color: var(--navbar-bg);
+    /* Fundo opaco quando rolado */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
     background: none !important;
 }
 
-.back-detran{
+.back-detran {
     background-color: #fff;
     align-items: center;
     height: 45px;
@@ -282,7 +301,7 @@ li {
     margin-top: -10px;
 }
 
-.back-logo{
+.back-logo {
     background-color: var(--azul-preto);
     align-items: center;
     height: 65px;
@@ -378,7 +397,8 @@ li {
     /* Empurra o botão de tema para a direita */
     padding: 20px;
 
-    border: 2px solid var(--azul-geral); /*Borda sol*/
+    border: 2px solid var(--azul-geral);
+    /*Borda sol*/
     border-radius: 100%;
 
     background-color: var(--branco-preto);
@@ -463,58 +483,6 @@ li {
 }
 
 /* 
- * Botão de Administrador
-*/
-
-#admin-link {
-    /* Posicionamento do botão de administrador */
-    position: fixed;
-
-    /* Top e right do botão de administrador */
-    top: 140px;
-    right: 20px;
-}
-
-#admin-link-button {
-    /* Cor de fundo e cor do texto do botão de administrador */
-    background-color: var(--azul-geral);
-    color: var(--branco);
-
-    /* Removendo o underline do link */
-    text-decoration: none;
-
-    /* Espaçamento entre as letras */
-    letter-spacing: 1px;
-
-    /* Espaçamento interno */
-    padding: 15px;
-
-    /* Border radius */
-    border-radius: 5px;
-}
-
-#admin-link-button-navbar {
-    /* Começando invisível o botão de administrador da navbar */
-    display: none;
-
-    /* Cor de fundo e cor do texto do botão de administrador */
-    background-color: var(--azul-geral);
-    color: var(--branco);
-
-    /* Removendo o underline do link */
-    text-decoration: none;
-
-    /* Espaçamento entre as letras */
-    letter-spacing: 1px;
-
-    /* Espaçamento interno */
-    padding: 15px;
-
-    /* Border radius */
-    border-radius: 5px;
-}
-
-/* 
  * Back to Top Button
 */
 
@@ -532,7 +500,8 @@ li {
     right: 20px;
 
     z-index: 99;
-    background-color: var(--azul-geral); /*Cor btn subir*/
+    background-color: var(--azul-geral);
+    /*Cor btn subir*/
 
     border: none;
     border-radius: 50%;
@@ -751,14 +720,15 @@ li {
     gap: 7px;
 }
 
-.numb{
+.numb {
     background-color: #464646;
     margin-top: 100px;
 }
 
-.numbo{
+.numbo {
     font-size: 25px;
 }
+
 .main-btn--about {
     /* Alterando as variáveis do botão */
     --btn-padding: 25px 30px;
@@ -865,7 +835,8 @@ header .navbar-brand img {
 header .navbar {
     /* Definindo altura, background color e box shadow */
     height: 100px;
-    background-color: var(--azul-preto); /*Cor navbar*/
+    background-color: var(--azul-preto);
+    /*Cor navbar*/
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -882,7 +853,7 @@ header .offcanvas-title {
 
 header .navbar-toggler {
     /* Alterando o SVG de menu lateral da OffCanvas NavBar */
-    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23212121' d='M4 17.27v-1h16v1zm0-4.77v-1h16v1zm0-4.77v-1h16v1z'/%3E%3C/svg%3E");
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23f2f2f2' d='M4 17.27v-1h16v1zm0-4.77v-1h16v1zm0-4.77v-1h16v1z'/%3E%3C/svg%3E");
 
     /* Padding do ícone do menu lateral da OffCanvas NavBar */
     padding: 4px 8px;
@@ -949,8 +920,9 @@ header .nav-item a:hover,
 
 header .nav-pills .nav-link.active {
     /* Alterando as variáveis do bootstrap responsáveis por alterar a cor de fundo e a cor de texto quando o item da navbar está ativo */
-    --bs-nav-pills-link-active-bg: #ffff;/*Fundo links navbar*/
-    color:  #033359 !important;
+    --bs-nav-pills-link-active-bg: #ffff;
+    /*Fundo links navbar*/
+    color: #033359 !important;
 
     /* Padding no item ativo, utilizando o !important para sobrepor estilos do bootstrap */
     padding: 10px;
@@ -1022,6 +994,21 @@ header .nav-item:hover::after {
     header .navbar-nav {
         column-gap: 40px;
     }
+    
+    .theme-container{
+        margin-right: 10px;
+    }
+
+    .nav-item{
+        white-space: nowrap;
+        /* Impede que o texto quebre em várias linhas */
+        overflow: hidden;
+        /* Oculta qualquer conteúdo que exceda o contêiner */
+        text-overflow: ellipsis;
+        /* Adiciona "..." caso o texto seja cortado */
+    
+    }
+
 
     /* Diminuindo o espaçamento lateral da NavBar */
     header .navbar .container-fluid {
@@ -1033,7 +1020,7 @@ header .nav-item:hover::after {
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-
+/* MESADIGITALIZADORA:  */
     header .nav-item::after {
         /* Removendo o efeito de underline nos itens da Navbar quando a proporção de tela for menor (tablets ou menor) */
         display: none;
@@ -1041,8 +1028,17 @@ header .nav-item:hover::after {
 
     header .navbar-nav {
         /* Diminuindo o espaçamento entre cada item da NavBar pela row (linha) e alinhando os itens no começo da OffCanvas NavBar */
-        row-gap: 15px;
+        row-gap: 10px;
         align-items: start;
+    }
+
+    .offcanvas {
+        background: linear-gradient(135deg, #002244, #00aaff) !important;
+        /* Gradiente */
+        color: #ffffff;
+        /* Cor do texto */
+        border-left: 2px solid #ffffff;
+        /* Borda à esquerda, opcional */
     }
 
     header .offcanvas-header {
@@ -1058,6 +1054,7 @@ header .nav-item:hover::after {
     header .divider--header {
         /* Tornando visível os dividers do header quando a proporção de tela for menor (só aparecerá na OffCanvar NavBar) */
         display: block;
+        color: var(--preto-branco) !important;
     }
 
 }
@@ -1070,14 +1067,13 @@ header .nav-item:hover::after {
         position: absolute !important;
     }
 
-    #admin-link-button {
-        /* Tornando o botão de administrador invisível em telas menores do que Tablet */
-        display: none;
-    }
-
-    #admin-link-button-navbar {
-        /* Tornando o botão de administrador da navbar visível em telas menores do que Tablet */
-        display: block;
+    .offcanvas {
+        background: linear-gradient(135deg, #002244, #00aaff) !important;
+        /* Gradiente */
+        color: #ffffff;
+        /* Cor do texto */
+        border-left: 2px solid #ffffff;
+        /* Borda à esquerda, opcional */
     }
 
 }
@@ -1091,10 +1087,35 @@ header .nav-item:hover::after {
         padding-right: 30px;
     }
 
+    .offcanvas {
+        background: linear-gradient(135deg, #002244, #00aaff) !important;
+        /* Gradiente */
+        color: #ffffff;
+        /* Cor do texto */
+        border-left: 2px solid #ffffff;
+        /* Borda à esquerda, opcional */
+    }
+
+    .about-small {
+        text-align: justify !important;
+    }
+
+    .txt-btn-small {
+        font-size: 15px !important;
+        white-space: nowrap;
+        /* Impede que o texto quebre em várias linhas */
+        overflow: hidden;
+        /* Oculta qualquer conteúdo que exceda o contêiner */
+        text-overflow: ellipsis;
+        /* Adiciona "..." caso o texto seja cortado */
+    }
+
     header .nav-item a {
         /* Diminuindo o font size dos links da Offcanvas Navbar */
         font-size: 14px;
+        color: var(--preto-branco) !important;
     }
+
 
 }
 
@@ -1110,20 +1131,49 @@ header .nav-item:hover::after {
 
     header .navbar-brand img {
         /* Diminuindo o tamanho da imagem da Navbar Brand em largura e altura em 10% */
-        width: 190px;
+        width: 150px;
         height: 67.5px;
     }
 
     header .navbar-toggler {
         /* Zerando o espaçamento na lateral direita do ícone de menu */
-        padding-right: 0;
+        padding-right: 0px;
     }
+
 
     header .offcanvas {
         /* Removendo a borda da OffCanvas Navbar */
         border: none !important;
     }
 
+    .about-small {
+        text-align: justify !important;
+    }
+
+    .hero-section {
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+    .offcanvas {
+        background: linear-gradient(135deg, #002244, #00aaff) !important;
+        /* Gradiente */
+        color: #ffffff;
+        /* Cor do texto */
+        border-left: 2px solid #ffffff;
+        /* Borda à esquerda, opcional */
+    }
+
+
+    .txt-btn-small {
+        font-size: 11px !important;
+        white-space: nowrap;
+        /* Impede que o texto quebre em várias linhas */
+        overflow: hidden;
+        /* Oculta qualquer conteúdo que exceda o contêiner */
+        text-overflow: ellipsis;
+        /* Adiciona "..." caso o texto seja cortado */
+    }
 }
 
 /* 
@@ -1327,14 +1377,16 @@ textarea:active {
 
 
 /*----------------------------------------------------------------------------------------------------------------------*/
-			
-#space{
+
+#space {
     margin-top: 50px;
 }
 
 #detran-logo {
-    width: 115px; /* Ajuste o tamanho da largura */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 115px;
+    /* Ajuste o tamanho da largura */
+    height: auto;
+    /* Mantém a proporção da imagem */
 }
 
 /* Container dos cartões */
@@ -1349,7 +1401,8 @@ textarea:active {
 .cartao {
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra para dar profundidade */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-color: #ffffff;
     font-family: Arial, sans-serif;
@@ -1360,7 +1413,7 @@ textarea:active {
 .cartao:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-    
+
 }
 
 /* Conteúdo do cartão */
@@ -1374,14 +1427,16 @@ textarea:active {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 8px;
-    color: #033359; /* Azul escuro */
+    color: #033359;
+    /* Azul escuro */
 }
 
 /* Texto do cartão */
 .cartao-texto {
     font-size: 0.95rem;
     line-height: 1.5;
-    color: #555; /* Cinza para contraste */
+    color: #555;
+    /* Cinza para contraste */
     margin-bottom: 16px;
 }
 
@@ -1389,7 +1444,8 @@ textarea:active {
 .cartao-botao {
     display: inline-block;
     padding: 10px 16px;
-    background-color: #033359; /* Azul escuro */
+    background-color: #033359;
+    /* Azul escuro */
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
@@ -1399,7 +1455,8 @@ textarea:active {
 
 /* Efeito hover no botão */
 .cartao-botao:hover {
-    background-color: #f07f3c; /* Azul mais claro */
+    background-color: #f07f3c;
+    /* Azul mais claro */
 }
 
 
@@ -1408,6 +1465,7 @@ textarea:active {
     .cartao {
         font-size: 0.9rem;
     }
+
     .cartao-botao {
         padding: 8px 12px;
         font-size: 0.8rem;

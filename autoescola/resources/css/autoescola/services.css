@@ -4,6 +4,11 @@
  * Services Banner Section
 */
 
+body{
+    line-height: 1.9; /* 1.8 é um valor relativo */
+}
+
+
 #services-banner-section {
     /* Background image com efeito de escurecer e alinhamento */
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../img/tela-services/img-servicos-banner.png');

@@ -169,10 +169,14 @@ figcaption{
         padding: 150px 0;
     }
 
+    .margin-img{
+        margin-top: 100px !important;
+    }
+
     /* Centralizando o conteúdo e espaçando entre os itens da seção de Conteúdo do Sobre Nós */
     #about-content-section .row {
         justify-content: center !important;
-        column-gap: 100px;
+        column-gap: 50px;
     }
 
 }

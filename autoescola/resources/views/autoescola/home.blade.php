@@ -13,21 +13,31 @@
     <div>
         <div id="content">
             <main id="main" class="site-main" role="main">
-                <section id="hero-section" class="section-slider screenr-section swiper-slider full-screen fixed">
+                <section id="hero-section" class="section-slider screenr-section swiper-slider full-screen fixed hero-section">
                     <div class="swiper-container" data-autoplay="7000">
                         <div class="swiper-wrapper">
                             <div id="" class="swiper-slide slide-align-left slide_content slide_content_layout_1"
                                 style="background-image: url('https://www.autoescolacaleffi.com.br/wp-content/uploads/2024/05/2023-12-11-1.jpg')">
-                                <div class="swiper-slide-intro">
+                                <div class="swiper-slide-intro txt-img-home">
                                     <div class="swiper-intro-inner">
-                                        <p><img decoding="async" class="logo1"
-                                                src="https://www.autoescolacaleffi.com.br/wp-content/uploads/2024/05/logo1-4.svg">
+                                        <p>
+                                            <img decoding="async" class="logo1" src="https://www.autoescolacaleffi.com.br/wp-content/uploads/2024/05/logo1-4.svg">
                                         </p>
-                                        <h1><b>PIONEIRISMO </b><span style="font-weight:400"><br />E </span><b>
-                                                <font color="#f68029">INCLUSÃO</font>
+                                        <h1>
+                                            <b>
+                                            <span>
+                                                PIONEIRISMO
+                                            </b>
+                                            <span>
+                                                <br />
+                                                E
+                                            </span>
+                                            <b>
+                                                <span class="intro2">
+                                                    INCLUSÃO
+                                                </span>
                                         </h1>
-                                        <p><span style="font-weight:400 !important">FORMANDO CONDUTORES <b>DESDE
-                                                    1989</b></span></p>
+                                        <p><span class="txt-inicial">FORMANDO CONDUTORES <b>DESDE 1989</b></span></p>
                                         <p><a class="btn btn-lg btn-secondary-outline btn-servicos"
                                                 href="index.html#servicos">Serviços</a> <a
                                                 class="btn btn-lg btn-secondary-outline"
@@ -43,7 +53,7 @@
             <div class="row">
 
                 {{-- Conteúdo do Hero --}}
-                <div class="hero-content col-md-12">
+                <div class="hero-content col-md-12 about-small">
                     <div class="hero-text">
                         <h1 class="tnr-bold tnr-title-size tnr-title-size--lg">SOBRE A CALEFFI<br></h1>
                         <p class="roboto-regular cores">Desde 1989, a <span class="about-content-text-highlight">Autoescola Caleffi</span> é sinônimo de <span class="about-content-text-highlight">excelência</span> na formação de condutores. Com uma história marcada por <span class="about-content-text-highlight">pioneirismo</span>, <span class="about-content-text-highlight">inovação</span> e <span class="about-content-text-highlight">dedicação</span>, já capacitamos mais de <span class="about-content-text-highlight">20.000 motoristas</span>, sempre colocando a segurança e a individualidade de cada aluno em primeiro lugar.
@@ -52,8 +62,8 @@
                     </div>
 
                     {{-- Botão de Matricula --}}
-                    <a class="main-btn main-btn--hero" href="#contactForm">
-                        <span>MATRICULE-SE</span>
+                    <a class="main-btn main-btn--hero txt-btn-small" href="#contactForm">
+                        <span class="">MATRICULE-SE</span>
                         <span class="ri--arrow-down-s-line"></span>
                     </a>
                 </div>
@@ -75,10 +85,10 @@
                 {{-- Conteúdo do Sobre Nós --}}
                 <div class="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center">
                     <div id="about-us-content">
-                        <h2 class="tnr-bold tnr-title-size">SEJA BEM VINDO A AUTOESCOLA</h2>
+                        <h2 class="tnr-bold tnr-title-size">SEJA BEM VINDO</h2>
                         <p class="roboto-light">Dê uma olhada em toda a estrutura de nosso local e fique a par de como as coisas funcionam por aqui!</p>
                         <a class="main-btn main-btn--about roboto-light" href="/sobre-nos">
-                            <span>SAIBA MAIS SOBRE A AUTOESCOLA</span>
+                            <span class="txt-btn-small">SAIBA MAIS SOBRE A CALEFFI</span>
                             <span class="material-symbols-light--keyboard-double-arrow-right"></span>
                         </a>
                     </div>

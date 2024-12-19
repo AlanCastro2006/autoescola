@@ -19,29 +19,23 @@
         {{-- Imagem da Autoescola e Texto --}}
         <div class="row justify-content-between">
 
-            {{-- Texto Autoescola --}}
-            <div class="col-lg-7 col-sm-12">
+            {{-- Texto História Autoescola --}}
+            <div class="col-lg-6 col-sm-12">
                 <h2 class="roboto-bold cores">Nossa história</h2>
 
                 <p class="roboto-regular">Fundada em abril de 1989, a <span class="about-content-text-highlight">Autoescola Caleffi</span>Fundada em abril de 1989,
-
                     <span class="about-content-text-highlight">a Autoescola Caleffi </span>já formou mais de <span class="about-content-text-highlight">20.000 condutores</span>, e isso é motivo de muito orgulho.
-
-                    A atuação do Grupo Caleffi tem crescido ao longo dos anos por meio de referências à sua
+                    A atuação do Grupo Caleffi tem crescido ao longo dos anos por meio de referências à su
                     <span class="about-content-text-highlight">excelente reputação </span>de fornecer <span class="about-content-text-highlight">treinamento de alta qualidade </span>para motoristas.
-
                     O Grupo entende que cada aluno tem seu tempo e método de aprendizado e seus instrutores <span class="about-content-text-highlight">(profissionais experientes) </span>são <span class="about-content-text-highlight">licenciados </span> e <span class="about-content-text-highlight">certificados</span>, trabalhando com cada aluno de forma individualizada para atender às suas necessidades.
-
                     O time de instrutores tem em média <span class="about-content-text-highlight">15 anos de experiência </span>em ensino e participam de seminários de educação continuada para manter seus conhecimentos sobre mudanças de regulamentos, segurança do motorista e regras de trânsito.
-
                     Um dos grandes diferenciais da Autoescola Caleffi é oferecer <span class="about-content-text-highlight">horários de aula flexíveis </span>para permitir que os alunos frequentem a autoescola conforme sua disponibilidade
                 </p>
 
-                <p class="roboto-regular"><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span></p>
             </div>
 
             {{-- Imagem Hélvio Caleffi --}}
-            <div class="col-lg-5 col-sm-12 text-center">
+            <div class="col-lg-5 col-sm-12 text-center margin-img">
                 <img class="redim" src="{{ Vite::asset('resources/img/tela-about-us/img-caleffi.jpg') }}" class="img-fluid" alt="Nosso fundador sr. Hélvio Caleffi">
                 <figcaption>Nosso fundador sr. Hélvio Caleffi</figcaption>
             </div>
@@ -50,8 +44,9 @@
 
         <hr class="divider divider--about">
 
-        {{-- Continuação texto autoescola --}}
+        {{-- Continuação texto autoescola gestão --}}
         <div class="row justify-content-between">
+
         {{-- Imagem Autoescola Atual --}}
             <div class="col-lg-5 col-sm-12 text-center about-content-margin-bottom">
                 <img class="img-carro" src="{{ Vite::asset('resources/img/tela-about-us/img-carro.jpg') }}" class="img-fluid" alt="Veículo exclusivo para alunos com necessidades especiais">
