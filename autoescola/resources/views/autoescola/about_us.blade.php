@@ -16,7 +16,7 @@
 <div id="about-content-section">
     <div class="container d-flex flex-column">
 
-        {{-- Imagem da Autoescola e Texto --}}
+        {{-- Texto e Imagem da Autoescola --}}
         <div class="row justify-content-between">
 
             {{-- Texto História Autoescola --}}
@@ -44,18 +44,17 @@
 
         <hr class="divider divider--about">
 
-        {{-- Continuação texto autoescola gestão --}}
+        {{-- Continuação Imagem e Texto da Autoescola--}}
         <div class="row justify-content-between">
 
-        {{-- Imagem Autoescola Atual --}}
+            {{-- Imagem Carro com acessibilidade PCD --}}
             <div class="col-lg-5 col-sm-12 text-center about-content-margin-bottom">
                 <img class="img-carro" src="{{ Vite::asset('resources/img/tela-about-us/img-carro.jpg') }}" class="img-fluid" alt="Veículo exclusivo para alunos com necessidades especiais">
                 <figcaption>Veículo exclusivo para alunos com necessidades especiais</figcaption>
             </div>
-            {{-- Texto Continuação --}}
-            <div class="col-lg-6 col-sm-12 about-content-margin-bottom">
 
-            
+            {{-- Texto Continuação Gestão Autoescola --}}
+            <div class="col-lg-6 col-sm-12 about-content-margin-bottom">
 
                 <h2 class="roboto-bold cores">Gestão</h2>
 
@@ -67,20 +66,20 @@
 
                     Para tanto, foi adquirido um ônibus (usado para ministrar as aulas) e mais tarde, foi realizada a aquisição de uma Carreta para a Habilitação na <span class="about-content-text-highlight">Categoria “E”</span>.
 
-                    Ao longo do tempo, os veículos foram substituídos para formarem uma <span class="about-content-text-highlight">nova frota Caleffi</span>.</p>
+                    Ao longo do tempo, os veículos foram substituídos para formarem uma <span class="about-content-text-highlight">nova frota Caleffi</span>.
+                </p>
 
-                <p class="roboto-regular"><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span><span class="about-content-text-highlight"></span></p>
             </div>
-            
+
         </div>
 
         <hr class="divider divider--about">
 
-        {{-- Continuação texto autoescola --}}
+        {{-- Continuação textos Autoescola --}}
         <div class="row justify-content-between">
 
-            {{-- Texto Continuação --}}
-            <div class="">
+            {{-- Texto Continuação (Cronologia) --}}
+            <div>
 
                 <h2 class="roboto-bold cores">Cronologia</h2>
 
@@ -102,7 +101,7 @@
         {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
-            {{-- Texto Continuação --}}
+            {{-- Texto Continuação (O que oferecemos) --}}
             <div class="about-content-margin-bottom">
 
                 <h2 class="roboto-bold cores">O que Oferecemos</h2>
@@ -125,7 +124,7 @@
         {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
-            {{-- Texto Continuação --}}
+            {{-- Texto Continuação (Diferenciais) --}}
             <div class="about-content-margin-bottom">
 
                 <h2 class="roboto-bold cores">Nossos diferenciais</h2>
@@ -148,13 +147,13 @@
         {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
-            {{-- Texto Continuação --}}
+            {{-- Texto Continuação (Missão) --}}
             <div class="about-content-margin-bottom">
 
                 <h2 class="roboto-bold cores">Missão</h2>
 
                 <p class="roboto-regular">
-                Nosso compromisso é formar condutores conscientes, capazes de promover segurança, respeito e harmonia no trânsito. Através de uma educação de qualidade, buscamos não apenas ensinar as regras, mas também cultivar a responsabilidade social e o comportamento ético, garantindo um futuro mais seguro e sustentável para todos.                </p>
+                    Nosso compromisso é formar condutores conscientes, capazes de promover segurança, respeito e harmonia no trânsito. Através de uma educação de qualidade, buscamos não apenas ensinar as regras, mas também cultivar a responsabilidade social e o comportamento ético, garantindo um futuro mais seguro e sustentável para todos. </p>
 
             </div>
 
@@ -165,13 +164,13 @@
         {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
-            {{-- Texto Continuação --}}
+            {{-- Texto Continuação (Visão) --}}
             <div class="about-content-margin-bottom">
 
                 <h2 class="roboto-bold cores">Visão</h2>
 
                 <p class="roboto-regular">
-                Nosso objetivo é ser referência regional em educação de condutores, destacando-nos pela excelência no ensino, pelo compromisso com a formação de motoristas responsáveis e pelo impacto positivo em um trânsito mais seguro para todos. Acreditamos que um aprendizado sólido e consciente é fundamental para a construção de um futuro com mais segurança e qualidade de vida.                </p>
+                    Nosso objetivo é ser referência regional em educação de condutores, destacando-nos pela excelência no ensino, pelo compromisso com a formação de motoristas responsáveis e pelo impacto positivo em um trânsito mais seguro para todos. Acreditamos que um aprendizado sólido e consciente é fundamental para a construção de um futuro com mais segurança e qualidade de vida. </p>
 
             </div>
 
@@ -182,13 +181,13 @@
         {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
-            {{-- Texto Continuação --}}
+            {{-- Texto Continuação (Valores) --}}
             <div class="about-content-margin-bottom">
 
                 <h2 class="roboto-bold cores">Valores</h2>
 
                 <p class="roboto-regular">
-                Nossos pilares são ética, transparência, pioneirismo, inovação, respeito ao próximo e responsabilidade social. Esses valores guiam todas as nossas ações e nos impulsionam a oferecer um serviço de excelência, sempre comprometidos com o bem-estar e o desenvolvimento de nossos alunos e da comunidade.                </p>
+                    Nossos pilares são ética, transparência, pioneirismo, inovação, respeito ao próximo e responsabilidade social. Esses valores guiam todas as nossas ações e nos impulsionam a oferecer um serviço de excelência, sempre comprometidos com o bem-estar e o desenvolvimento de nossos alunos e da comunidade. </p>
 
             </div>
 
@@ -199,13 +198,13 @@
         {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
-            {{-- Texto Continuação --}}
+            {{-- Texto Continuação (Metodologia) --}}
             <div class="about-content-margin-bottom">
 
                 <h2 class="roboto-bold cores">Metodologia de ensino</h2>
 
                 <p class="roboto-regular">
-                A Autoescola Caleffi valoriza o aprendizado individualizado, oferecendo uma combinação única de suporte psicológico e técnico para cada aluno. Com uma infraestrutura moderna e bem equipada, proporcionamos um ambiente ideal para o aprendizado. Além disso, nossos horários são flexíveis e adaptados à sua rotina, garantindo que você aprenda a dirigir com tranquilidade, confiança e no seu próprio ritmo.                </p>
+                    A Autoescola Caleffi valoriza o aprendizado individualizado, oferecendo uma combinação única de suporte psicológico e técnico para cada aluno. Com uma infraestrutura moderna e bem equipada, proporcionamos um ambiente ideal para o aprendizado. Além disso, nossos horários são flexíveis e adaptados à sua rotina, garantindo que você aprenda a dirigir com tranquilidade, confiança e no seu próprio ritmo. </p>
 
             </div>
 
@@ -216,7 +215,7 @@
         {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
-            {{-- Texto Continuação --}}
+            {{-- Texto Continuação (Matricule-se) --}}
             <div class="about-content-margin-bottom">
 
                 <h2 class="roboto-bold cores">Matricule-se Agora mesmo</h2>
@@ -259,6 +258,7 @@
                 </li>
             </ul>
 
+
             {{-- Conteúdo do Menu de Navegação Dinâmico --}}
             <div class="tab-content" id="myTabContent">
 
@@ -266,7 +266,7 @@
                 <div class="tab-pane fade show active" id="nosso-espaco-tab-pane" role="tabpanel" aria-labelledby="nosso-espaco-tab" tabindex="0">
                     <div id="nosso-espaco-slider" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <!-- Primeira Imagem -->
+                            {{-- Primeira Imagem --}}
                             <div class="carousel-item active">
                                 <div class="row d-flex justify-content-center align-items-center row-gap-5">
                                     <div class="col-lg-5 col-sm-12 text-center">
@@ -282,7 +282,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Segunda Imagem -->
+                            {{-- Segunda Imagem --}}
                             <div class="carousel-item">
                                 <div class="row d-flex justify-content-center align-items-center row-gap-5">
                                     <div class="col-lg-5 col-sm-12 text-center">
@@ -299,7 +299,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Controles do Slider -->
+                        {{-- Controles do Slider --}}
                         <button class="carousel-control-prev" type="button" data-bs-target="#nosso-espaco-slider" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Anterior</span>
@@ -315,7 +315,7 @@
                 <div class="tab-pane fade" id="salas-de-aula-tab-pane" role="tabpanel" aria-labelledby="salas-de-aula-tab" tabindex="0">
                     <div id="salas-de-aula-slider" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <!-- Primeira Imagem -->
+                            {{-- Primeira Imagem --}}
                             <div class="carousel-item active">
                                 <div class="row d-flex justify-content-center align-items-center row-gap-5">
                                     <div class="col-lg-5 col-sm-12 text-center">
@@ -331,7 +331,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Segunda Imagem  -->
+                            {{-- Segunda Imagem  --}}
                             <div class="carousel-item">
                                 <div class="row d-flex justify-content-center align-items-center row-gap-5">
                                     <div class="col-lg-5 col-sm-12 text-center">
@@ -348,7 +348,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Controles do Slider -->
+                        {{-- Controles do Slider --}}
                         <button class="carousel-control-prev" type="button" data-bs-target="#salas-de-aula-slider" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Anterior</span>
@@ -359,11 +359,12 @@
                         </button>
                     </div>
                 </div>
+
                 {{-- Pista Interna Conteúdo --}}
                 <div class="tab-pane fade" id="pista-interna-tab-pane" role="tabpanel" aria-labelledby="pista-interna-tab" tabindex="0">
                     <div id="pista-interna-slider" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <!-- Primeira Imagem -->
+                            {{-- Primeira Imagem --}}
                             <div class="carousel-item active">
                                 <div class="row d-flex justify-content-center align-items-center row-gap-5">
                                     <div class="col-lg-5 col-sm-12 text-center">
@@ -379,7 +380,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Segunda Imagem -->
+                            {{-- Segunda Imagem --}}
                             <div class="carousel-item">
                                 <div class="row d-flex justify-content-center align-items-center row-gap-5">
                                     <div class="col-lg-5 col-sm-12 text-center">
@@ -396,7 +397,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Controles do Slider -->
+                        {{-- Controles do Slider --}}
                         <button class="carousel-control-prev" type="button" data-bs-target="#pista-interna-slider" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Anterior</span>
@@ -408,12 +409,11 @@
                     </div>
                 </div>
 
-
                 {{-- Área de Lazer Conteúdo --}}
                 <div class="tab-pane fade" id="area-de-lazer-tab-pane" role="tabpanel" aria-labelledby="area-de-lazer-tab" tabindex="0">
                     <div id="area-de-lazer-slider" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <!-- Primeira Imagem -->
+                            {{-- Primeira Imagem --}}
                             <div class="carousel-item active">
                                 <div class="row d-flex justify-content-center align-items-center row-gap-5">
                                     <div class="col-lg-5 col-sm-12 text-center">
@@ -429,7 +429,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Segunda Imagem -->
+                            {{-- Segunda Imagem --}}
                             <div class="carousel-item">
                                 <div class="row d-flex justify-content-center align-items-center row-gap-5">
                                     <div class="col-lg-5 col-sm-12 text-center">
@@ -446,7 +446,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Controles do Slider -->
+                        {{-- Controles do Slider --}}
                         <button class="carousel-control-prev" type="button" data-bs-target="#area-de-lazer-slider" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Anterior</span>
@@ -462,7 +462,7 @@
                 <div class="tab-pane fade" id="frota-tab-pane" role="tabpanel" aria-labelledby="frota-tab" tabindex="0">
                     <div id="frota-slider" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <!-- Primeira Imagem -->
+                            {{-- Primeira Imagem --}}
                             <div class="carousel-item active">
                                 <div class="row d-flex justify-content-center align-items-center row-gap-5">
                                     <div class="col-lg-5 col-sm-12 text-center">
@@ -478,7 +478,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Segunda Imagem -->
+                            {{-- Segunda Imagem --}}
                             <div class="carousel-item">
                                 <div class="row d-flex justify-content-center align-items-center row-gap-5">
                                     <div class="col-lg-5 col-sm-12 text-center">
@@ -495,7 +495,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Controles do Slider -->
+                        {{-- Controles do Slider --}}
                         <button class="carousel-control-prev" type="button" data-bs-target="#frota-slider" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Anterior</span>

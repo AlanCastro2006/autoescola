@@ -70,10 +70,11 @@
                 </p>
 
             </div>
-        </div>
-            <hr class="divider divider--services">
 
-            
+        </div>
+
+        <hr class="divider divider--services">
+
         {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
             {{-- Texto Autoescola --}}
@@ -97,9 +98,11 @@
                 </p>
 
             </div>
+
         </div>
-            <hr class="divider divider--services">
-            
+
+        <hr class="divider divider--services">
+
         {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
@@ -124,10 +127,11 @@
                 </p>
 
             </div>
+
         </div>
 
-            <hr class="divider divider--services">
-            
+        <hr class="divider divider--services">
+
         {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
@@ -152,10 +156,11 @@
                 </p>
 
             </div>
+
         </div>
 
-            <hr class="divider divider--services">
-            
+        <hr class="divider divider--services">
+
         {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
@@ -180,10 +185,11 @@
                 </p>
 
             </div>
+
         </div>
 
-            <hr class="divider divider--services">
-            
+        <hr class="divider divider--services">
+
         {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
@@ -209,8 +215,9 @@
                 </p>
 
             </div>
+
         </div>
-        
+
         {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
@@ -237,10 +244,13 @@
                 </p>
 
             </div>
+
         </div>
+
     </div>
-    </div>
+
 </div>
+
 
 
 @endsection

@@ -994,19 +994,19 @@ header .nav-item:hover::after {
     header .navbar-nav {
         column-gap: 40px;
     }
-    
-    .theme-container{
+
+    .theme-container {
         margin-right: 10px;
     }
 
-    .nav-item{
+    .nav-item {
         white-space: nowrap;
         /* Impede que o texto quebre em várias linhas */
         overflow: hidden;
         /* Oculta qualquer conteúdo que exceda o contêiner */
         text-overflow: ellipsis;
         /* Adiciona "..." caso o texto seja cortado */
-    
+
     }
 
 
@@ -1020,7 +1020,8 @@ header .nav-item:hover::after {
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-/* MESADIGITALIZADORA:  */
+
+    /* MESADIGITALIZADORA:  */
     header .nav-item::after {
         /* Removendo o efeito de underline nos itens da Navbar quando a proporção de tela for menor (tablets ou menor) */
         display: none;
@@ -1429,12 +1430,13 @@ textarea:active {
     margin-bottom: 8px;
     color: #033359;
     /* Azul escuro */
+    margin-bottom: 15px;
 }
 
 /* Texto do cartão */
 .cartao-texto {
     font-size: 0.95rem;
-    line-height: 1.5;
+    line-height: 1.8;
     color: #555;
     /* Cinza para contraste */
     margin-bottom: 16px;
@@ -1451,6 +1453,7 @@ textarea:active {
     border-radius: 4px;
     font-size: 0.9rem;
     transition: background-color 0.3s ease;
+    margin-top: 25px;
 }
 
 /* Efeito hover no botão */

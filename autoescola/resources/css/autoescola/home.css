@@ -46,11 +46,11 @@
     border: none;
 }
 
-#servicos{
+#servicos {
     background-color: var(--branco-preto);
 }
 
-.cores{
+.cores {
     color: var(--preto-branco);
 }
 
@@ -672,5 +672,5 @@
         --btn-padding: 15px 10px;
     }
 
-    
+
 }

@@ -25,8 +25,8 @@
                                         </p>
                                         <h1>
                                             <b>
-                                            <span>
-                                                PIONEIRISMO
+                                                <span>
+                                                    PIONEIRISMO
                                             </b>
                                             <span>
                                                 <br />
@@ -72,14 +72,12 @@
         </div>
     </div>
 
-    <!-- CONTEÚDO DO SOBRE NÓS DA AUTOESCOLA -->
-
     {{-- * About Us Section * --}}
     <div id="about-us-section" class="hidden-element">
         <div class="container-fluid">
             <div class="row d-flex justify-content-center">
 
-                {{-- Imagem da Autoescola --}}
+                {{-- Imagem da Fachada da Autoescola --}}
                 <img src="{{ Vite::asset('resources/img/tela-home/img-autoescola.jpeg') }}" class="col-lg-6 col-sm-12 img-fluid" alt="">
 
                 {{-- Conteúdo do Sobre Nós --}}
@@ -97,6 +95,8 @@
             </div>
         </div>
     </div>
+
+    {{-- * Services Section * --}}
     <section id="servicos" class="section-services section-padding-lg section-meta screen-section">
         <div class="container">
             <div class="section-title-area cores">
@@ -116,10 +116,7 @@
                                 <span class="cartao-texto">
                                     Conte conosco para obter sua permissão para dirigir!
                                     Concedida para as categorias “A” e “B”, ela tem validade de um ano.
-                                    Realize seus exames teórico e práticos conosco e garanta sua
-                                    licença.
-                                    <br />
-                                    <br />
+                                    Realize seus exames teórico e práticos conosco e garanta sua licença.
                                 </span>
                                 <a class="cartao-botao" href="https://www.autoescolacaleffi.com.br/servicos">
                                     <small>
@@ -143,8 +140,6 @@
                                     cometeu nenhuma infração gravíssima? Nós ajudamos você a conquistar sua
                                     habilitação definitiva.
                                 </span>
-                                <br />
-                                <br />
                                 <a class="cartao-botao" href="https://www.autoescolacaleffi.com.br/servicos">
                                     <small>
                                         <b>
