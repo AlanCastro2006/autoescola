@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="./public/img/logo/logo-autoescola.png" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/AlanCastro2006/autoescola/blob/c1686d04b92542ec0e9b9b78b769d8ff5123f7a6/autoescola/resources/img/logo/logo-autoescola.png" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
