@@ -19,7 +19,7 @@
         {{-- Texto Política de Privacidade --}}
         <div class="row justify-content-between">
 
-            {{-- Texto Autoescola --}}
+            {{-- Texto --}}
             <div>
 
                 <p class="roboto-regular politic-text">
@@ -47,10 +47,9 @@
 
         <hr class="divider divider--politics">
 
-        {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
-            {{-- Texto Autoescola --}}
+            {{-- Texto --}}
             <div>
 
                 <div>
@@ -86,9 +85,8 @@
 
         <hr class="divider divider--politics">
 
-        {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
-            {{-- Texto Autoescola --}}
+            {{-- Texto --}}
             <div>
 
                 <div>
@@ -113,10 +111,9 @@
 
         <hr class="divider divider--politics">
 
-        {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
-            {{-- Texto Autoescola --}}
+            {{-- Texto --}}
             <div>
 
                 <div>
@@ -141,10 +138,9 @@
 
         <hr class="divider divider--politics">
 
-        {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
-            {{-- Texto Autoescola --}}
+            {{-- Texto --}}
             <div>
 
                 <div>
@@ -169,10 +165,9 @@
 
         <hr class="divider divider--politics">
 
-        {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
-            {{-- Texto Autoescola --}}
+            {{-- Texto --}}
             <div>
 
                 <div>
@@ -197,10 +192,9 @@
 
         <hr class="divider divider--politics">
 
-        {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
-            {{-- Texto Autoescola --}}
+            {{-- Texto --}}
             <div>
 
                 <div>
@@ -223,12 +217,11 @@
 
         </div>
 
-        {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
             <hr class="divider divider--politics">
 
-            {{-- Texto Autoescola --}}
+            {{-- Texto --}}
             <div>
 
                 <div>
@@ -251,12 +244,11 @@
 
         </div>
 
-        {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
             <hr class="divider divider--politics">
 
-            {{-- Texto Autoescola --}}
+            {{-- Texto --}}
             <div>
 
                 <div>
@@ -288,12 +280,11 @@
 
         </div>
 
-        {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
             <hr class="divider divider--politics">
 
-            {{-- Texto Autoescola --}}
+            {{-- Texto --}}
             <div>
 
                 <div>
@@ -338,12 +329,11 @@
 
         </div>
 
-        {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
             <hr class="divider divider--politics">
 
-            {{-- Texto Autoescola --}}
+            {{-- Texto --}}
             <div>
 
                 <div>
@@ -367,12 +357,11 @@
 
         </div>
 
-        {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
             <hr class="divider divider--politics">
 
-            {{-- Texto Autoescola --}}
+            {{-- Texto --}}
             <div>
 
                 <div>
@@ -396,12 +385,11 @@
 
         </div>
 
-        {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
             <hr class="divider divider--politics">
 
-            {{-- Texto Autoescola --}}
+            {{-- Texto --}}
             <div>
 
                 <div>
@@ -424,12 +412,11 @@
 
         </div>
 
-        {{-- Continuação texto autoescola --}}
         <div class="row justify-content-between">
 
             <hr class="divider divider--politics">
 
-            {{-- Texto Autoescola --}}
+            {{-- Texto --}}
             <div>
 
                 <div>
