@@ -67,13 +67,17 @@
 
                 <p class="roboto-regular politic-text">
                     Um cookie é um pequeno arquivo de dados que é enviado para o seu computador quando você visita um website. Tal como acontece com os cookies dos demais sites, nossos cookies incluem um número de identificação que é exclusivo para o computador que você está usando. Este identificador nos ajuda a compreender melhor nossa base de usuários e como eles estão usando o nosso site e serviços.
-
+                </p>
+                <p>
                     O usuário tem a possibilidade de configurar seu navegador para ser avisado sobre a recepção dos “cookies” e impedir a sua instalação no disco rígido. As informações pertinentes a esta configuração estão disponíveis em instruções e manuais do próprio navegador. No entanto, algumas características deste site podem ser limitadas em caso de bloqueio de cookies.
-
+                </p>
+                <p>
                     A Autoescola Caleffi irá utilizar-se da informação obtida por intermédio dos cookies para analisar as páginas navegadas pelo usuário, as buscas realizadas, visando melhorar as iniciativas comerciais e promocionais, mostrar publicidade ou promoções, banners de interesse, notícias sobre a Autoescola Caleffi e aperfeiçoar as ofertas de conteúdo, bens e serviços.
-
+                </p>
+                <p>
                     Também usamos cookies de maior duração para outras finalidades, como, por exemplo, para exibir o seu endereço de e-mail em um formulário de cadastro, para que você não precise digitar novamente o endereço de e-mail sempre que quiser fazer um cadastro ou baixar um de nossos materiais.
-                    <span class="politics-content-text-highlight"></span>
+                </p>
+                <p>
                 </p>
 
             </div>
@@ -156,7 +160,6 @@
                 </div>
 
                 <p class="roboto-regular politic-text">
-
                     Todas as informações que coletamos são armazenadas em ambientes operacionais seguros que não estão disponíveis ao acesso do público. Toda nossa equipe está dedicada a manter e defender a sua privacidade e segurança esperada para a atividade comercial desenvolvida pela Autoescola Caleffi.<span class="politics-content-text-highlight"></span>
                 </p>
 
@@ -270,11 +273,14 @@
 
                 <p class="roboto-regular politic-text">
                     As partes acordam que as informações constantes do portal, dos e-mails que por ele trafegarem e dos bancos de dados estão cobertas pela cláusula de sigilo e confidencialidade, não podendo a Autoescola Caleffi, ressalvados os casos de ordem e/ou pedido e/ou determinação judicial de qualquer espécie e/ou de ordem e/ou pedido e/ou determinação de autoridades públicas a fim de esclarecer fatos e/ou circunstâncias e/ou instruir investigação, inquérito e/ou denúncia em curso, revelar as informações a terceiros.
-
+                </p>
+                <p>
                     A Autoescola Caleffi não será responsável por violações dos dados e informações acima referidas resultantes da ação criminosa ou irregular de terceiros (“hackers”).
-
+                </p>
+                <p>
                     Os dados inseridos nas ferramentas pelos USUÁRIOS não serão utilizados pela Autoescola Caleffi para nenhum outro fim que não seja aqueles dispostos neste termo.
-
+                </p>
+                <p>
                     Não obstante o disposto supra, a termo confidencialidade não incluirá quaisquer informações que sejam ou se tornem conhecidas do público em geral.
                 </p>
 
@@ -304,16 +310,26 @@
 
                 <p class="roboto-regular politic-text">
                     A Autoescola Caleffi pode compartilhar suas informações pessoais com:
-
+                </p>
+                <p>
                     Empresas que tenham celebrado contrato de franquia ou parceria comercial de fornecedor homologado além de fornecedores dos serviços sob contrato que colaboram em partes de nossas operações comerciais (prevenção contra fraude, atividades de cobrança, marketing, serviços de tecnologia). Nossos contratos determinam que esses fornecedores de serviço só usem suas informações em relação aos serviços que realizam para nós, e não em benefício próprio.
-
+                </p>
+                <p>
                     Empresas com as quais a Autoescola Caleffi pretenda fundir ou adquirir. (Se ocorrer uma fusão, exigiremos que a nova entidade constituída siga essa política de privacidade com relação às suas informações pessoais. Se suas informações pessoais puderem ser usadas contra essa política, você receberá um aviso prévio).
-
+                </p>
+                <p>
                     Autoridades policiais, oficiais do governo ou outros terceiros quando:
-
+                </p>
+                <p>
                     1. formos obrigados a isso por intimação, decisão judicial ou procedimento legal semelhante;
+                </p>
+                <p>
                     2. precisarmos fazer isso para estar em conformidade com a lei ou com as regras de associação de cartão de crédito
+                </p>
+                <p>
                     3. estivermos cooperando com uma investigação policial em andamento;
+                </p>
+                <p>
                     4. acreditamos, de boa-fé, que a divulgação das informações pessoais é necessária para impedir danos físicos ou perdas financeiras ou reportar atividade ilegal suspeita.
 
                 </p>
@@ -429,9 +445,11 @@
                 </div>
 
                 <p class="roboto-regular politic-text">
-
+                </p>
+                <p>
                     Esta Política de Privacidade foi elaborada em 28 de maio de 2024.
-
+                </p>
+                <p>
                     Reservamo-nos ao direito de alterar ou atualizar a nossa Política de Privacidade a qualquer momento, publicando um aviso no nosso site.
                 </p>
 

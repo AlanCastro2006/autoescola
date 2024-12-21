@@ -1,12 +1,12 @@
-/* ------------------------------------------------ TELA SERVICES ---------------------------------------------------------- */
+/* ------------------------------------------------ TELA POLÍTICA DE PRIVACIDADE ---------------------------------------------------------- */
 
 /* 
- * Services Banner Section
+ * Politics Banner Section
 */
 
 body {
     line-height: 1.9;
-    /* 1.8 é um valor relativo */
+    /* 1.9 é um valor relativo */
 }
 
 
@@ -35,7 +35,7 @@ body {
 }
 
 /* 
- * @media Sections - Services Banner Section
+ * @media Sections - Politics Banner Section
 */
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
@@ -53,7 +53,7 @@ body {
 
     /* Diminuindo o font size do título de Serviços da seção de banner */
     #politics-banner-section h1 {
-        font-size: 44px;
+        font-size: 27px !important;
     }
 
     /* Diminuindo a altura da seção de banner */
@@ -223,175 +223,24 @@ body {
 
 /* Custom @media */
 @media (max-width: 399.98px) {
+    /* Celular  */
 
     /* Diminuindo o padding interno da seção de Conteúdo do Serviços */
     #politics-content-section {
         padding: 50px 25px;
     }
 
+    body{
+        width: 380px !important;
+    }
+
+    #politics-banner-section h1 {
+        font-size: 20px !important;
+    }
+
     /* Diminuindo o gap entre os itens da seção de Conteúdo do Serviços */
     #politics-content-section .container {
         row-gap: 25px;
-    }
-
-}
-
-/* 
- * Technical Characteristics Section
-*/
-
-#technical-characteristics-section {
-    /* Background color da seção de características técnicas */
-    background-color: var(--marrom-escuro);
-
-    /* Espaçamento interno de 40px em cima e 100px embaixo */
-    padding: 40px 0 100px 0;
-}
-
-#technical-characteristics-section .technical-characteristics-title-div {
-    /* Espaçamento da navbar de 40px */
-    margin-bottom: 40px;
-}
-
-#technical-characteristics-section h1 {
-    /* Cor do título de características técnicas */
-    color: var(--semibranco);
-}
-
-#technical-characteristics-section .nav-tabs {
-    /* Espaçamento da navbar e do conteúdo de 50px */
-    margin-bottom: 50px;
-
-    /* Sobrepondo a variável de cor da borda dos itens da navbar do bootstrap */
-    --bs-border-color: var(--semibranco);
-}
-
-#technical-characteristics-section .nav-link {
-    /* Font size e cor do texto do item da navbar */
-    font-size: 16px;
-    color: var(--semibranco);
-
-    /* Sobrepondo a variável de border radius do bootstrap para manter a visualização quadrada */
-    --bs-nav-tabs-border-radius: 0;
-}
-
-#technical-characteristics-section .nav-link.active {
-    /* Alterando a cor e o background color do item da navbar quando o item estiver ativo (active) */
-    color: white;
-    background-color: #055999;
-
-    /* Sem borda e com border radius 0 */
-    border: none;
-    border-radius: 0;
-}
-
-#technical-characteristics-section .nav-link:hover {
-    /* Border radius do hover de 0px */
-    border-radius: 0;
-}
-
-#technical-characteristics-section .img-fluid {
-    /* Box shadow da imagem do conteúdo das características técnicas */
-    box-shadow: -6px 6px 10px 6px rgba(0, 0, 0, 0.25);
-}
-
-#technical-characteristics-section .technical-characteristics-ul {
-    /* Font size e cor de texto da lista não ordenada do conteúdo das características técnicas */
-    font-size: 16px;
-    color: var(--semibranco);
-
-    /* Gap entre os itens da lista de 20px */
-    gap: 20px;
-}
-
-#technical-characteristics-section .technical-characteristics-text-highlight {
-    /* Cor do texto em destaque de vermelho e negrito */
-    color: var(--vermelho-geral);
-    font-weight: 700;
-}
-
-/* 
- * @media Sections - Technical Characteristics Section
-*/
-
-/* `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-
-    /* Diminuindo o espaçamento interno (bottom) da seção de Características Técnicas */
-    #technical-characteristics-section {
-        padding: 40px 0;
-    }
-
-    /* Fixando a largura e a altura das imagens da seção de Características Técnicas (exceto a imagem do mapa de lugares) */
-    #technical-characteristics-section #hall-tab-pane .img-fluid,
-    #technical-characteristics-section #palco-tab-pane .img-fluid,
-    #technical-characteristics-section #equipamento-de-luz-tab-pane .img-fluid {
-        width: 500px;
-        height: 300px;
-    }
-
-}
-
-/* `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-
-    /* Diminuindo o font size do título da seção de Características Técnicas */
-    #technical-characteristics-section h1 {
-        font-size: 44px;
-    }
-
-    /* Diminuindo o font size dos itens da barra de navegação e dos itens da lista não ordenada da seção de Características Técnicas */
-    #technical-characteristics-section .nav-link,
-    #technical-characteristics-section .technical-characteristics-ul {
-        font-size: 16px;
-    }
-
-}
-
-/* `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-
-    #technical-characteristics-section .nav-link {
-        margin-bottom: 0px;
-    }
-
-    /* Automatizando novamente a largura e a altura das imagens da seção de Características Técnicas (exceto a imagem do mapa de lugares) */
-    #technical-characteristics-section #hall-tab-pane .img-fluid,
-    #technical-characteristics-section #palco-tab-pane .img-fluid,
-    #technical-characteristics-section #equipamento-de-luz-tab-pane .img-fluid {
-        width: auto;
-        height: auto;
-    }
-
-    /* Adicionando um padding lateral no conteúdo dinâmico da seção de Características Técnicas */
-    #technical-characteristics-section .tab-content {
-        padding: 0 25px;
-    }
-
-    /* Diminuindo o font size do título da seção de Características Técnicas */
-    #technical-characteristics-section h1 {
-        font-size: 36px;
-    }
-
-    /* Diminuindo o font size dos itens da barra de navegação e dos itens da lista não ordenada da seção de Características Técnicas */
-    #technical-characteristics-section .nav-link,
-    #technical-characteristics-section .technical-characteristics-ul {
-        font-size: 14px;
-    }
-
-}
-
-/* Custom @media */
-@media (max-width: 399.98px) {
-
-    /* Diminuindo o font size do título da seção de Características Técnicas */
-    #technical-characteristics-section h1 {
-        font-size: 32px;
-    }
-
-    /* Diminuindo o gap entre os itens da lista da seção de Características Técnicas */
-    #technical-characteristics-section .technical-characteristics-ul {
-        gap: 10px;
     }
 
 }
