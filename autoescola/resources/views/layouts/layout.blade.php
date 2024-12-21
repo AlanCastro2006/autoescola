@@ -122,6 +122,12 @@
 
     <main>
         @yield('content')
+        <a href="https://wa.me/SEU_NUMERO" target="_blank" class="whatsapp-button">
+    <div class="pulse-ring"></div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+
+</a>
+
     </main>
 
     {{-- * Footer * --}}
