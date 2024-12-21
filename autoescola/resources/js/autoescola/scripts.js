@@ -285,7 +285,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // * ---------------------------------------------------------------------------------------------------------------------------------
 document.addEventListener("DOMContentLoaded", function () {
     const navbar = document.querySelector(".navbar");
-    const heroSection = document.querySelector("#hero-section , #services-banner-section, #about-banner-section");
+    const heroSection = document.querySelector("#hero-section , #services-banner-section, #about-banner-section, #politics-banner-section");
 
     function updateNavbarBackground() {
         const heroBottom = heroSection.getBoundingClientRect().bottom; // Fim da imagem
@@ -305,27 +305,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Chamar a função inicialmente para definir o estado correto
     updateNavbarBackground();
 });
-
-window.addEventListener("load", function(){
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": {
-          "background": "#032642"
-        },
-        "button": {
-          "background": "transparent",
-          "text": "#e6b800",
-          "border": "#e6b800"
-        }
-      },
-      "position": "bottom-left",
-        "content": {
-        "message": "Utilizamos <b>cookies</b> para lhe entregar uma melhor experiência de navegação. Ao prosseguir você consente com a nossa",
-        "dismiss": "Eu aceito",
-        "link":"Política de Privacidade.",
-          "href": "https://www.autoescolacaleffi.com.br/politica-de-privacidade/"
-          }
-    })});
     
     jQuery( document ).ready(function() {
     setInterval(function(){ 
@@ -438,3 +417,5 @@ window.addEventListener("load", function(){
             n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
         }))
     }((window, document), window._wpemojiSettings);
+
+    

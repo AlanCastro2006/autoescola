@@ -1,0 +1,397 @@
+/* ------------------------------------------------ TELA SERVICES ---------------------------------------------------------- */
+
+/* 
+ * Services Banner Section
+*/
+
+body {
+    line-height: 1.9;
+    /* 1.8 é um valor relativo */
+}
+
+
+#politics-banner-section {
+    /* Background image com efeito de escurecer e alinhamento */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/tela-politicas-de-privacidade/img-politica-banner.png');
+    background-position: center;
+    background-size: cover;
+
+    /* Largura e altura */
+    width: 100%;
+    height: 500px;
+}
+
+#politics-banner-section h1 {
+    /* Cor do título de Serviços */
+    color: var(--semibranco);
+}
+
+.politic-text {
+    font-size: 18px !important;
+}
+
+.politic-title {
+    font-size: 30px !important;
+}
+
+/* 
+ * @media Sections - Services Banner Section
+*/
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    /* Diminuindo a altura da seção de banner */
+    #politics-banner-section {
+        height: 400px;
+    }
+
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    /* Diminuindo o font size do título de Serviços da seção de banner */
+    #politics-banner-section h1 {
+        font-size: 44px;
+    }
+
+    /* Diminuindo a altura da seção de banner */
+    #politics-banner-section {
+        height: 350px;
+    }
+
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* Diminuindo o font size do título de Serviços da seção de banner */
+    #politics-banner-section h1 {
+        font-size: 36px;
+    }
+
+    /* Diminuindo a altura da seção de banner */
+    #politics-banner-section {
+        height: 300px;
+    }
+
+}
+
+/* Custom @media */
+@media (max-width: 399.98px) {
+
+    /* Diminuindo o font size do título de Serviços da seção de banner */
+    #politics-banner-section h1 {
+        font-size: 32px;
+    }
+
+    /* Diminuindo a altura da seção de banner */
+    #politics-banner-section {
+        height: 250px;
+    }
+
+}
+
+/* 
+ * Services Content Section
+*/
+
+#politics-content-section {
+    /* Background color da seção do conteúdo do Serviços */
+    background-color: var(--branco-preto);
+
+    /* Espaçamento interno de 200px top e bottom*/
+    padding: 200px 0;
+}
+
+#politics-content-section .row {
+    /* Sobrepondo a variável de padding da classe .row que espaçava internamente as imagens */
+    --bs-gutter-x: 0;
+}
+
+#politics-content-section .container {
+    /* Espaçamento entre as duas áreas de imagem e texto de 100px */
+    row-gap: 100px;
+}
+
+#politics-content-section h2 {
+    /* Font size e cor do título de introdução aos textos do conteúdo do Serviços */
+    font-size: 28px;
+    color: var(--vermelho-geral);
+}
+
+#politics-content-section p {
+    /* Font size e justificando o parágrafo do conteúdo do Serviços */
+    font-size: 16px;
+    text-align: justify;
+
+    /* Cor do parágrafo */
+    color: var(--texto-primario);
+}
+
+#politics-content-section .politics-content-text-highlight {
+    /* Destacando a frase selecionada com negrito e cor do texto primário do conteúdo do Serviços (parágrafos) */
+    font-weight: 700;
+    color: var(--texto-primario);
+}
+
+/* 
+ * @media Sections - Services Content Section
+*/
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+    /* Diminuindo o padding interno top e bottom da seção de Conteúdo do Serviços */
+    #politics-content-section {
+        padding: 150px 0;
+    }
+
+    /* Centralizando o conteúdo e espaçando entre os itens da seção de Conteúdo do Serviços */
+    #politics-content-section .row {
+        justify-content: center !important;
+        column-gap: 100px;
+    }
+
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    /* Diminuindo o padding interno top e bottom e adicionando left e right da seção de Conteúdo do Serviços */
+    #politics-content-section {
+        padding: 100px 50px;
+    }
+
+    /* Diminuindo o gap entre os itens da seção de Conteúdo do Serviços */
+    #politics-content-section .container {
+        row-gap: 50px;
+    }
+
+    /* Inserindo uma margin bottom para o primeiro item de cada seção de Conteúdo do Serviços */
+    #politics-content-section .politics-content-margin-bottom {
+        margin-bottom: 50px;
+    }
+
+    /* Diminuindo a largura ocupada pela imagem para 80% da seção de Conteúdo do Serviços */
+    #politics-content-section .img-fluid {
+        width: 80%;
+    }
+
+    /* Mostrando o divider politics da seção de Conteúdo do Serviços */
+    #politics-content-section .divider--politics {
+        display: block;
+    }
+
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    /* Voltando a largura ocupada pela imagem para 100% da seção de Conteúdo do Serviços */
+    #politics-content-section .img-fluid {
+        width: 100%;
+    }
+
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* Diminuindo o padding interno da seção de Conteúdo do Serviços */
+    #politics-content-section {
+        padding: 75px 25px;
+    }
+
+    /* Diminuindo a margin bottom para o primeiro item de cada seção de Conteúdo do Serviços */
+    #politics-content-section .politics-content-margin-bottom {
+        margin-bottom: 25px;
+    }
+
+    /* Diminuindo o font size do título de introdução aos textos do Conteúdo do Serviços  */
+    #politics-content-section h2 {
+        font-size: 24px;
+    }
+
+    /* Diminuindo o font size do parágrafo do Conteúdo do Serviços */
+    #politics-content-section p {
+        font-size: 14px;
+    }
+
+}
+
+/* Custom @media */
+@media (max-width: 399.98px) {
+
+    /* Diminuindo o padding interno da seção de Conteúdo do Serviços */
+    #politics-content-section {
+        padding: 50px 25px;
+    }
+
+    /* Diminuindo o gap entre os itens da seção de Conteúdo do Serviços */
+    #politics-content-section .container {
+        row-gap: 25px;
+    }
+
+}
+
+/* 
+ * Technical Characteristics Section
+*/
+
+#technical-characteristics-section {
+    /* Background color da seção de características técnicas */
+    background-color: var(--marrom-escuro);
+
+    /* Espaçamento interno de 40px em cima e 100px embaixo */
+    padding: 40px 0 100px 0;
+}
+
+#technical-characteristics-section .technical-characteristics-title-div {
+    /* Espaçamento da navbar de 40px */
+    margin-bottom: 40px;
+}
+
+#technical-characteristics-section h1 {
+    /* Cor do título de características técnicas */
+    color: var(--semibranco);
+}
+
+#technical-characteristics-section .nav-tabs {
+    /* Espaçamento da navbar e do conteúdo de 50px */
+    margin-bottom: 50px;
+
+    /* Sobrepondo a variável de cor da borda dos itens da navbar do bootstrap */
+    --bs-border-color: var(--semibranco);
+}
+
+#technical-characteristics-section .nav-link {
+    /* Font size e cor do texto do item da navbar */
+    font-size: 16px;
+    color: var(--semibranco);
+
+    /* Sobrepondo a variável de border radius do bootstrap para manter a visualização quadrada */
+    --bs-nav-tabs-border-radius: 0;
+}
+
+#technical-characteristics-section .nav-link.active {
+    /* Alterando a cor e o background color do item da navbar quando o item estiver ativo (active) */
+    color: white;
+    background-color: #055999;
+
+    /* Sem borda e com border radius 0 */
+    border: none;
+    border-radius: 0;
+}
+
+#technical-characteristics-section .nav-link:hover {
+    /* Border radius do hover de 0px */
+    border-radius: 0;
+}
+
+#technical-characteristics-section .img-fluid {
+    /* Box shadow da imagem do conteúdo das características técnicas */
+    box-shadow: -6px 6px 10px 6px rgba(0, 0, 0, 0.25);
+}
+
+#technical-characteristics-section .technical-characteristics-ul {
+    /* Font size e cor de texto da lista não ordenada do conteúdo das características técnicas */
+    font-size: 16px;
+    color: var(--semibranco);
+
+    /* Gap entre os itens da lista de 20px */
+    gap: 20px;
+}
+
+#technical-characteristics-section .technical-characteristics-text-highlight {
+    /* Cor do texto em destaque de vermelho e negrito */
+    color: var(--vermelho-geral);
+    font-weight: 700;
+}
+
+/* 
+ * @media Sections - Technical Characteristics Section
+*/
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    /* Diminuindo o espaçamento interno (bottom) da seção de Características Técnicas */
+    #technical-characteristics-section {
+        padding: 40px 0;
+    }
+
+    /* Fixando a largura e a altura das imagens da seção de Características Técnicas (exceto a imagem do mapa de lugares) */
+    #technical-characteristics-section #hall-tab-pane .img-fluid,
+    #technical-characteristics-section #palco-tab-pane .img-fluid,
+    #technical-characteristics-section #equipamento-de-luz-tab-pane .img-fluid {
+        width: 500px;
+        height: 300px;
+    }
+
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    /* Diminuindo o font size do título da seção de Características Técnicas */
+    #technical-characteristics-section h1 {
+        font-size: 44px;
+    }
+
+    /* Diminuindo o font size dos itens da barra de navegação e dos itens da lista não ordenada da seção de Características Técnicas */
+    #technical-characteristics-section .nav-link,
+    #technical-characteristics-section .technical-characteristics-ul {
+        font-size: 16px;
+    }
+
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    #technical-characteristics-section .nav-link {
+        margin-bottom: 0px;
+    }
+
+    /* Automatizando novamente a largura e a altura das imagens da seção de Características Técnicas (exceto a imagem do mapa de lugares) */
+    #technical-characteristics-section #hall-tab-pane .img-fluid,
+    #technical-characteristics-section #palco-tab-pane .img-fluid,
+    #technical-characteristics-section #equipamento-de-luz-tab-pane .img-fluid {
+        width: auto;
+        height: auto;
+    }
+
+    /* Adicionando um padding lateral no conteúdo dinâmico da seção de Características Técnicas */
+    #technical-characteristics-section .tab-content {
+        padding: 0 25px;
+    }
+
+    /* Diminuindo o font size do título da seção de Características Técnicas */
+    #technical-characteristics-section h1 {
+        font-size: 36px;
+    }
+
+    /* Diminuindo o font size dos itens da barra de navegação e dos itens da lista não ordenada da seção de Características Técnicas */
+    #technical-characteristics-section .nav-link,
+    #technical-characteristics-section .technical-characteristics-ul {
+        font-size: 14px;
+    }
+
+}
+
+/* Custom @media */
+@media (max-width: 399.98px) {
+
+    /* Diminuindo o font size do título da seção de Características Técnicas */
+    #technical-characteristics-section h1 {
+        font-size: 32px;
+    }
+
+    /* Diminuindo o gap entre os itens da lista da seção de Características Técnicas */
+    #technical-characteristics-section .technical-characteristics-ul {
+        gap: 10px;
+    }
+
+}

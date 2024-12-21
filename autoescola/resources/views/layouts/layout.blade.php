@@ -16,6 +16,9 @@
         id="jquery-migrate-js"></script>
     <!-- -------------------------------------------------------------------------------------------------------------------------------------- -->
 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    
+
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,6 +39,8 @@
 </head>
 
 <body>
+@include('cookie-consent::index')
+
 
     {{-- * Header/Navbar * --}}
 
@@ -223,6 +228,8 @@
             </div>
         </div>
     </footer>
+
+    
 
     {{-- * Botão de Back to Top (voltar ao topo) --}}
     <button id="backToTop" class="back-to-top-btn d-flex align-items-center" title="Voltar ao topo">

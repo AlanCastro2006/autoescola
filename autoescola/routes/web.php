@@ -20,7 +20,10 @@ Route::get('/services', function () {
     return view('autoescola/services');
 });
 
-
+// Rota por GET para tela de políticas de privacidade
+Route::get('/politicas-de-privacidade', function () {
+    return view('autoescola/politica');
+});
 
 //Rota para o Fale Conosco
 //Rotas para o envio de email

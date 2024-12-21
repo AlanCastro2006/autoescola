@@ -1474,3 +1474,50 @@ textarea:active {
         font-size: 0.8rem;
     }
 }
+.cookie-consent {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #042540; /* Cor azul escuro */
+    color: #ffffff; /* Texto amarelo */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 425px;
+    height: 160px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    z-index: 9999;
+    text-align: center;
+    border:  2px solid #144b76;
+}
+
+.cookie-consent__message {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.cookie-consent__link {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.cookie-consent__agree {
+    background-color: transparent;
+    color: #f6c453;
+    border: 2px solid #f6c453;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cookie-consent__agree:hover {
+    background-color: #f6c453;
+    color: #012c54;
+}
